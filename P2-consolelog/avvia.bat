@@ -1,4 +1,5 @@
 @echo off
+cd /d "%~dp0"
 REM ================================================================
 REM  console.log — Script di avvio (Progetto 2, Django + SQLite)
 REM  Doppio clic su questo file per installare e avviare il progetto.

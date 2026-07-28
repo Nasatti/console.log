@@ -1,0 +1,550 @@
+codice,titolo,dataInizio,dataFine,creatore
+1,Storia dell'Antica Grecia,2025-07-22,2027-01-09,marco_ferrari
+2,Chimica Organica Base,2025-05-05,2025-08-23,luca_esposito
+3,Fisica Newtoniana,2025-11-19,2027-04-21,andrea_romano
+4,Letteratura del '900,2025-03-29,2025-08-02,andrea_romano
+5,Matematica Finanziaria,2025-07-17,2026-10-16,chiara_colombo
+6,Biologia Cellulare,2026-04-02,2027-06-01,chiara_colombo
+7,Geografia Europea,2025-06-19,2025-07-19,matteo_ricci
+8,Astronomia e Cosmologia,2026-10-27,2027-04-24,matteo_ricci
+9,Lingue Neolatine,2026-03-18,2026-09-12,matteo_ricci
+10,Arte Medievale,2026-02-22,2027-02-27,matteo_ricci
+11,Cinema d'Autore,2025-12-12,2026-04-14,valentina_marino
+12,Cucina Regionale Italiana,2025-08-09,2027-04-19,valentina_marino
+13,Informatica di Base,2025-07-06,2027-01-11,valentina_marino
+14,Diritto Costituzionale,2026-05-19,2026-06-22,davide_greco
+15,Economia Aziendale,2025-09-24,2025-11-15,francesca_bruno
+16,Storia della Musica,2027-06-20,2027-11-06,francesca_bruno
+17,Filosofia Greca,2026-08-30,2026-12-31,elena_conti
+18,Anatomia Umana,2025-11-02,2027-06-05,elena_conti
+19,Ecologia e Ambiente,2025-11-13,2027-05-08,laura_costa
+20,Sport e Olimpiadi,2027-03-14,2027-07-08,laura_costa
+21,Psicologia Cognitiva,2027-02-27,2027-06-29,nicola_giordano
+22,Sociologia Urbana,2026-02-21,2027-05-21,nicola_giordano
+23,Storia del Rinascimento,2025-10-04,2027-03-04,nicola_giordano
+24,Letteratura Inglese,2026-02-01,2026-10-27,roberto_lombardi
+25,Matematica Discreta,2026-01-15,2027-04-01,anna_moreno
+26,Reti di Computer,2026-04-10,2027-06-25,emanuele_fontana
+27,Algoritmi e Strutture Dati,2025-11-27,2027-01-23,emanuele_fontana
+28,Marketing Digitale,2025-11-01,2027-01-27,emanuele_fontana
+29,Gestione Aziendale,2025-11-24,2027-01-14,claudia_barbieri
+30,Storia dell'Arte Moderna,2027-04-24,2027-05-06,claudia_barbieri
+31,Fisica Quantistica,2026-06-24,2026-12-26,tomaso_messina
+32,Chimica Inorganica,2025-12-10,2027-01-29,tomaso_messina
+33,Biologia Marina,2025-09-21,2027-05-03,tomaso_messina
+34,Geologia e Vulcani,2027-03-05,2027-05-07,tomaso_messina
+35,Meteorologia,2025-07-20,2027-06-11,giovanni_caruso
+36,Linguistica Italiana,2025-09-05,2026-01-09,giovanni_caruso
+37,Numeri e Crittografia,2027-05-13,2027-10-03,martina_ferri
+38,Mitologia Greca e Romana,2025-12-08,2027-04-28,martina_ferri
+39,Storia Medievale,2026-06-14,2026-08-10,martina_ferri
+40,Cultura Asiatica,2025-10-07,2026-02-09,martina_ferri
+41,Letteratura Russa,2025-11-07,2026-12-13,alessio_pellegrini
+42,Economia Globale,2025-12-15,2026-11-18,alessio_pellegrini
+43,Zoologia,2025-02-10,2025-04-22,ilaria_marini
+44,Botanica,2027-02-24,2027-03-07,ilaria_marini
+45,Farmacologia Base,2026-01-29,2026-05-05,ilaria_marini
+46,Diritto Internazionale,2026-07-19,2026-08-02,stefano_fiore
+47,Storia della Tecnologia,2026-10-09,2026-10-21,stefano_fiore
+48,Robotica,2025-09-17,2025-10-26,monica_leone
+49,Intelligenza Artificiale,2026-04-30,2027-04-13,monica_leone
+50,Machine Learning Base,2027-02-22,2027-05-05,monica_leone
+51,Statistica Applicata,2026-01-13,2026-03-02,carmine_serra
+52,Calcolo Integrale,2026-08-23,2027-01-25,carmine_serra
+53,Topologia,2026-01-19,2027-04-19,beatrice_coppola
+54,Teoria dei Giochi,2025-07-09,2027-05-16,simone_fabbri
+55,Storia della Filosofia,2025-07-06,2026-11-30,simone_fabbri
+56,Epistemologia,2027-05-02,2027-06-08,simone_fabbri
+57,Etica e Morale,2025-09-28,2027-02-03,giada_lodi
+58,Teologia Comparata,2025-12-03,2026-04-18,giada_lodi
+59,Archeologia Classica,2026-02-21,2026-06-15,giada_lodi
+60,Numismatica,2027-05-20,2027-09-21,davide_grassi
+61,Filologia Romanza,2025-02-15,2025-04-08,davide_grassi
+62,Storia dell'Impero Romano,2024-06-15,2024-08-30,stefano_silvestri
+63,La Grande Guerra,2027-04-28,2027-07-12,pietro_amato
+64,Storia della Seconda Guerra Mondiale,2026-02-22,2026-08-12,pietro_amato
+65,Geopolitica Contemporanea,2024-06-11,2024-11-21,paola_rizzi
+66,Relazioni Internazionali,2025-07-04,2025-07-18,paola_rizzi
+67,Storia dell'Asia,2026-01-12,2026-09-30,ilaria_riva
+68,Cultura Africana,2025-12-28,2026-11-08,ilaria_riva
+69,Musica Jazz,2025-08-26,2027-06-23,ilaria_riva
+70,Opera Lirica Italiana,2027-04-09,2027-04-18,ilaria_riva
+71,Storia del Rock,2025-12-01,2027-03-06,giorgio_martinelli
+72,Pittura Impressionista,2026-02-24,2027-06-17,diego_gentile
+73,Scultura Classica,2025-06-28,2027-03-07,diego_gentile
+74,Architettura Moderna,2025-12-02,2027-06-18,irene_salvi
+75,Design Industriale,2025-07-23,2027-04-22,irene_salvi
+76,Fotografia,2025-09-17,2027-03-27,elena_riva
+77,Storia del Cinema,2025-09-19,2026-12-15,elena_riva
+78,Letteratura Latino-Americana,2026-03-01,2026-08-29,riccardo_silvestri
+79,Poesia del '900,2025-07-02,2025-08-08,diego_mele
+80,Il Romanzo Moderno,2024-05-28,2024-07-21,diego_mele
+81,Narrativa Contemporanea,2025-10-23,2026-11-17,diego_mele
+82,Graphic Novel,2026-02-03,2026-08-19,giovanni_galli
+83,Fumetto Italiano,2026-01-24,2026-07-06,laura_guerra
+84,Videogame e Cultura Pop,2025-12-03,2026-02-18,laura_guerra
+85,Gastronomia Internazionale,2026-05-31,2027-04-08,laura_guerra
+86,Storia del Vino,2026-04-24,2027-05-21,serena_quaranta
+87,Enologia Italiana,2027-04-18,2027-07-06,giorgio_longo
+88,Barista e Caffetteria,2025-11-14,2026-12-20,giorgio_longo
+89,Sommelier Base,2026-06-01,2026-11-05,giorgio_longo
+90,Sport Invernali,2027-02-28,2027-04-05,katia_de_luca
+91,Sport Nautici,2025-08-09,2027-06-15,tomaso_poli
+92,Atletica Leggera,2026-04-12,2027-04-13,tomaso_poli
+93,Storia del Calcio,2026-08-11,2026-10-20,tomaso_poli
+94,Regole del Basketball,2025-11-26,2027-05-05,anna_vitale
+95,Tennis e Grand Slam,2025-02-01,2025-06-03,miriam_celli
+96,Formula 1 e Motorsport,2025-11-20,2026-12-02,roberta_sanna
+97,Moto GP,2026-05-28,2027-05-07,roberta_sanna
+98,Ciclismo e Tour de France,2026-08-18,2026-10-17,roberta_sanna
+99,Scacchi,2025-04-07,2025-09-30,jessica_biffi
+100,Bridge e Giochi di Carte,2026-04-08,2026-06-30,davide_de_rosa
+101,Poker Teorico,2025-07-10,2027-04-29,davide_de_rosa
+102,Danza Classica,2026-06-11,2026-10-25,davide_de_rosa
+103,Teatro e Drammaturgia,2026-02-03,2027-06-23,ernesto_pozzi
+104,Circo e Arti Performative,2026-08-04,2026-10-09,ernesto_pozzi
+105,Storia dell'Antica Grecia- Livello Base,2027-05-15,2027-10-19,ernesto_pozzi
+106,Chimica Organica Base- Livello Base,2025-08-16,2025-09-28,monica_celli
+107,Fisica Newtoniana- Livello Base,2026-04-04,2026-12-03,monica_celli
+108,Letteratura del '900- Livello Base,2025-09-09,2026-11-23,monica_celli
+109,Matematica Finanziaria- Livello Base,2025-12-03,2026-11-15,laura_rinaldi
+110,Biologia Cellulare- Livello Base,2025-10-18,2027-02-08,laura_rinaldi
+111,Geografia Europea- Livello Base,2026-06-07,2027-02-05,laura_rinaldi
+112,Astronomia e Cosmologia- Livello Base,2026-03-02,2027-06-09,federica_pino
+113,Lingue Neolatine- Livello Base,2027-04-19,2027-09-23,federica_pino
+114,Arte Medievale- Livello Base,2025-04-24,2025-09-25,serena_caputo
+115,Cinema d'Autore- Livello Base,2026-03-30,2027-02-24,serena_caputo
+116,Cucina Regionale Italiana- Livello Base,2025-11-13,2026-11-18,serena_caputo
+117,Informatica di Base- Livello Base,2025-09-01,2027-02-07,serena_caputo
+118,Diritto Costituzionale- Livello Base,2025-01-10,2025-02-09,serena_caputo
+119,Economia Aziendale- Livello Base,2026-05-05,2026-09-19,anna_pino
+120,Storia della Musica- Livello Base,2025-07-07,2027-03-09,anna_pino
+121,Filosofia Greca- Livello Base,2027-04-06,2027-04-22,debora_sorrentino
+122,Anatomia Umana- Livello Base,2026-01-17,2026-11-05,emanuele_donati
+123,Ecologia e Ambiente- Livello Base,2025-12-03,2027-03-19,emanuele_donati
+124,Sport e Olimpiadi- Livello Base,2026-06-29,2026-12-21,emanuele_donati
+125,Psicologia Cognitiva- Livello Base,2027-02-20,2027-06-12,emanuele_donati
+126,Sociologia Urbana- Livello Base,2025-10-05,2026-12-31,emanuele_donati
+127,Storia del Rinascimento- Livello Base,2026-06-01,2026-10-11,miriam_orlando
+128,Letteratura Inglese- Livello Base,2026-04-21,2026-11-23,emanuele_ferrara
+129,Matematica Discreta- Livello Base,2025-08-09,2027-05-06,claudia_pino
+130,Reti di Computer- Livello Base,2024-05-15,2024-07-01,claudia_pino
+131,Algoritmi e Strutture Dati- Livello Base,2026-06-20,2027-04-07,claudia_pino
+132,Marketing Digitale- Livello Base,2026-08-26,2026-12-29,matteo_silvestri
+133,Gestione Aziendale- Livello Base,2027-05-26,2027-07-11,roberta_fazio
+134,Storia dell'Arte Moderna- Livello Base,2026-01-29,2027-03-16,roberta_fazio
+135,Fisica Quantistica- Livello Base,2024-12-19,2025-04-28,roberta_fazio
+136,Chimica Inorganica- Livello Base,2025-12-13,2026-10-04,lorenzo_parisi
+137,Biologia Marina- Livello Base,2027-03-16,2027-04-26,lorenzo_parisi
+138,Geologia e Vulcani- Livello Base,2026-11-17,2027-03-10,lorenzo_parisi
+139,Meteorologia- Livello Base,2025-10-11,2026-11-12,claudia_de_luca
+140,Linguistica Italiana- Livello Base,2026-11-20,2027-02-11,claudia_de_luca
+141,Numeri e Crittografia- Livello Base,2025-09-27,2026-01-26,riccardo_quaranta
+142,Mitologia Greca e Romana- Livello Base,2026-01-02,2026-12-16,riccardo_quaranta
+143,Storia Medievale- Livello Base,2025-09-22,2027-01-08,riccardo_quaranta
+144,Cultura Asiatica- Livello Base,2025-07-05,2026-10-29,lisa_sorrentino
+145,Letteratura Russa- Livello Base,2026-02-28,2027-01-25,tomaso_quaranta
+146,Economia Globale- Livello Base,2025-10-28,2027-06-25,tomaso_quaranta
+147,Zoologia- Livello Base,2027-05-28,2027-07-12,lisa_salvi
+148,Botanica- Livello Base,2026-06-09,2026-09-01,lisa_salvi
+149,Farmacologia Base- Livello Base,2025-08-29,2026-12-15,lisa_salvi
+150,Diritto Internazionale- Livello Base,2027-02-09,2027-03-13,maria_milani
+151,Storia della Tecnologia- Livello Base,2024-11-11,2025-05-04,simone_tozzi
+152,Robotica- Livello Base,2026-08-06,2026-12-11,simone_tozzi
+153,Intelligenza Artificiale- Livello Base,2024-11-24,2025-05-16,alessia_galli
+154,Machine Learning Base- Livello Base,2026-01-10,2027-06-09,alessia_galli
+155,Statistica Applicata- Livello Base,2027-01-09,2027-04-07,diego_cattaneo
+156,Calcolo Integrale- Livello Base,2025-05-15,2025-10-30,serena_biffi
+157,Topologia- Livello Base,2025-07-03,2025-09-06,serena_biffi
+158,Teoria dei Giochi- Livello Base,2025-08-07,2027-06-24,anna_fusco
+159,Storia della Filosofia- Livello Base,2027-02-11,2027-04-01,anna_fusco
+160,Epistemologia- Livello Base,2026-05-30,2026-11-26,roberto_montagna
+161,Etica e Morale- Livello Base,2025-11-29,2027-04-14,giada_casini
+162,Teologia Comparata- Livello Base,2025-11-05,2025-12-25,giada_napoli
+163,Archeologia Classica- Livello Base,2025-08-19,2027-01-10,giada_napoli
+164,Numismatica- Livello Base,2025-06-12,2025-10-24,giada_napoli
+165,Filologia Romanza- Livello Base,2026-02-17,2027-02-19,diego_pino
+166,Storia dell'Impero Romano- Livello Base,2026-06-23,2027-02-22,diego_pino
+167,La Grande Guerra- Livello Base,2027-06-10,2027-11-03,diego_pino
+168,Storia della Seconda Guerra Mondiale- Livello Base,2025-11-13,2026-12-22,ernesto_mele
+169,Geopolitica Contemporanea- Livello Base,2026-11-29,2027-05-18,ernesto_mele
+170,Relazioni Internazionali- Livello Base,2026-01-24,2026-10-08,francesco_pozzi
+171,Storia dell'Asia- Livello Base,2027-03-03,2027-04-06,francesco_pozzi
+172,Cultura Africana- Livello Base,2025-09-08,2026-12-29,francesco_pozzi
+173,Musica Jazz- Livello Base,2025-07-04,2026-11-27,francesco_pozzi
+174,Opera Lirica Italiana- Livello Base,2025-07-25,2027-01-17,martina_gentile
+175,Storia del Rock- Livello Base,2025-11-27,2026-05-08,monica_martinelli
+176,Pittura Impressionista- Livello Base,2025-07-04,2025-09-07,monica_martinelli
+177,Scultura Classica- Livello Base,2025-04-30,2025-07-02,katia_quaranta
+178,Architettura Moderna- Livello Base,2024-07-21,2024-09-30,katia_quaranta
+179,Design Industriale- Livello Base,2024-07-10,2024-08-21,katia_quaranta
+180,Fotografia- Livello Base,2024-04-04,2024-09-23,katia_quaranta
+181,Storia del Cinema- Livello Base,2025-12-23,2026-09-04,alessio_alfano
+182,Letteratura Latino-Americana- Livello Base,2026-01-27,2026-12-13,alessio_alfano
+183,Poesia del '900- Livello Base,2025-11-02,2025-12-30,alessio_alfano
+184,Il Romanzo Moderno- Livello Base,2025-09-24,2027-01-02,alessio_alfano
+185,Narrativa Contemporanea- Livello Base,2026-02-08,2026-09-21,alessio_alfano
+186,Graphic Novel- Livello Base,2025-10-24,2026-11-27,alessio_fabbri
+187,Fumetto Italiano- Livello Base,2025-06-10,2025-07-16,alessio_fabbri
+188,Videogame e Cultura Pop- Livello Base,2026-05-20,2026-09-09,alessio_fabbri
+189,Gastronomia Internazionale- Livello Base,2024-04-20,2024-08-06,olga_monti
+190,Storia del Vino- Livello Base,2027-04-10,2027-07-19,olga_monti
+191,Enologia Italiana- Livello Base,2025-12-07,2026-07-06,miriam_rega
+192,Barista e Caffetteria- Livello Base,2025-07-18,2026-11-10,serena_amato
+193,Sommelier Base- Livello Base,2025-08-05,2027-01-05,serena_amato
+194,Sport Invernali- Livello Base,2026-02-28,2027-02-25,riccardo_palma
+195,Sport Nautici- Livello Base,2025-09-13,2026-12-13,riccardo_palma
+196,Atletica Leggera- Livello Base,2026-10-20,2027-04-10,riccardo_palma
+197,Storia del Calcio- Livello Base,2026-11-30,2027-05-22,diego_gentile2
+198,Regole del Basketball- Livello Base,2026-04-17,2026-07-22,diego_gentile2
+199,Tennis e Grand Slam- Livello Base,2026-12-01,2027-04-13,diego_gentile2
+200,Formula 1 e Motorsport- Livello Base,2026-02-27,2027-03-31,diego_gentile2
+201,Moto GP- Livello Base,2025-11-07,2027-01-04,diego_gentile2
+202,Ciclismo e Tour de France- Livello Base,2024-02-20,2024-07-14,tomaso_palermo
+203,Scacchi- Livello Base,2026-04-09,2027-01-27,tomaso_palermo
+204,Bridge e Giochi di Carte- Livello Base,2024-08-31,2025-02-11,tomaso_palermo
+205,Poker Teorico- Livello Base,2025-12-20,2026-10-18,alessia_marchetti
+206,Danza Classica- Livello Base,2026-02-27,2026-12-31,alessia_marchetti
+207,Teatro e Drammaturgia- Livello Base,2025-07-11,2027-01-03,alessia_marchetti
+208,Circo e Arti Performative- Livello Base,2025-08-01,2026-12-29,alessia_marchetti
+209,Storia dell'Antica Grecia- Livello Avanzato,2027-02-16,2027-03-18,francesco_celli
+210,Chimica Organica Base- Livello Avanzato,2024-03-22,2024-09-08,francesco_celli
+211,Fisica Newtoniana- Livello Avanzato,2026-06-17,2026-07-24,francesco_celli
+212,Letteratura del '900- Livello Avanzato,2025-09-12,2025-10-21,silvia_angeli
+213,Matematica Finanziaria- Livello Avanzato,2025-11-05,2025-11-29,silvia_angeli
+214,Biologia Cellulare- Livello Avanzato,2026-02-28,2026-12-14,carmine_orlando
+215,Geografia Europea- Livello Avanzato,2024-10-18,2024-10-25,carmine_orlando
+216,Astronomia e Cosmologia- Livello Avanzato,2026-04-14,2026-09-03,carmine_orlando
+217,Lingue Neolatine- Livello Avanzato,2026-06-14,2026-09-04,ivan_biffi
+218,Arte Medievale- Livello Avanzato,2026-01-13,2026-07-07,diego_napoli
+219,Cinema d'Autore- Livello Avanzato,2026-06-01,2026-09-01,diego_napoli
+220,Cucina Regionale Italiana- Livello Avanzato,2024-11-30,2025-01-05,diego_napoli
+221,Informatica di Base- Livello Avanzato,2024-10-27,2025-02-25,diego_napoli
+222,Diritto Costituzionale- Livello Avanzato,2024-08-13,2025-01-18,diego_napoli
+223,Economia Aziendale- Livello Avanzato,2025-10-13,2026-10-20,ernesto_conte
+224,Storia della Musica- Livello Avanzato,2026-07-21,2027-01-12,ernesto_conte
+225,Filosofia Greca- Livello Avanzato,2026-07-30,2026-12-06,pietro_caputo
+226,Anatomia Umana- Livello Avanzato,2027-02-02,2027-03-08,pietro_caputo
+227,Ecologia e Ambiente- Livello Avanzato,2026-05-17,2026-12-10,olga_salvi
+228,Sport e Olimpiadi- Livello Avanzato,2026-03-13,2026-04-21,olga_salvi
+229,Psicologia Cognitiva- Livello Avanzato,2026-01-12,2027-01-10,lorenzo_lodi
+230,Sociologia Urbana- Livello Avanzato,2027-03-27,2027-06-17,lorenzo_lodi
+231,Storia del Rinascimento- Livello Avanzato,2025-08-22,2027-02-04,diego_amato
+232,Letteratura Inglese- Livello Avanzato,2025-07-03,2026-08-26,diego_amato
+233,Matematica Discreta- Livello Avanzato,2027-05-28,2027-10-23,diego_amato
+234,Reti di Computer- Livello Avanzato,2025-07-25,2025-11-19,diego_amato
+235,Algoritmi e Strutture Dati- Livello Avanzato,2025-11-07,2027-01-19,jessica_angeli
+236,Marketing Digitale- Livello Avanzato,2026-05-10,2026-12-06,claudia_palma
+237,Gestione Aziendale- Livello Avanzato,2025-07-22,2026-11-06,claudia_palma
+238,Storia dell'Arte Moderna- Livello Avanzato,2026-08-02,2026-09-01,ilaria_rinaldo
+239,Fisica Quantistica- Livello Avanzato,2026-08-15,2026-12-10,ilaria_poli
+240,Chimica Inorganica- Livello Avanzato,2025-12-19,2026-09-03,ilaria_poli
+241,Biologia Marina- Livello Avanzato,2025-08-31,2027-04-12,ilaria_poli
+242,Geologia e Vulcani- Livello Avanzato,2025-07-22,2027-01-31,matteo_mele
+243,Meteorologia- Livello Avanzato,2027-05-02,2027-07-27,marco_bruni
+244,Linguistica Italiana- Livello Avanzato,2025-09-05,2027-03-15,marco_bruni
+245,Numeri e Crittografia- Livello Avanzato,2025-07-26,2027-03-02,marco_bruni
+246,Mitologia Greca e Romana- Livello Avanzato,2026-05-03,2026-12-25,marco_bruni
+247,Storia Medievale- Livello Avanzato,2024-09-14,2024-11-17,luca_sala
+248,Cultura Asiatica- Livello Avanzato,2027-04-12,2027-09-25,luca_sala
+249,Letteratura Russa- Livello Avanzato,2024-04-11,2024-09-07,luca_sala
+250,Economia Globale- Livello Avanzato,2025-07-26,2027-06-19,jessica_orlando
+251,Zoologia- Livello Avanzato,2025-05-14,2025-08-15,emanuele_biffi
+252,Botanica- Livello Avanzato,2026-03-27,2026-09-10,emanuele_biffi
+253,Farmacologia Base- Livello Avanzato,2025-12-04,2026-08-03,davide_guida
+254,Diritto Internazionale- Livello Avanzato,2025-08-07,2026-07-14,davide_guida
+255,Storia della Tecnologia- Livello Avanzato,2025-09-29,2026-10-17,davide_guida
+256,Robotica- Livello Avanzato,2026-01-19,2026-12-12,matteo_tozzi
+257,Intelligenza Artificiale- Livello Avanzato,2024-06-17,2024-11-23,carmine_riva
+258,Machine Learning Base- Livello Avanzato,2026-06-01,2026-09-16,carmine_riva
+259,Statistica Applicata- Livello Avanzato,2025-08-15,2026-07-24,carmine_riva
+260,Calcolo Integrale- Livello Avanzato,2024-09-06,2025-02-15,federica_carbone
+261,Topologia- Livello Avanzato,2026-02-08,2026-10-17,lorenzo_lodi2
+262,Teoria dei Giochi- Livello Avanzato,2026-02-02,2027-06-11,simone_de_marco2
+263,Storia della Filosofia- Livello Avanzato,2024-09-26,2025-02-14,simone_de_marco2
+264,Epistemologia- Livello Avanzato,2026-03-10,2026-05-12,carmine_de_marco
+265,Etica e Morale- Livello Avanzato,2026-01-24,2026-10-15,fabio_ferretti
+266,Teologia Comparata- Livello Avanzato,2025-07-20,2025-10-09,fabio_ferretti
+267,Archeologia Classica- Livello Avanzato,2026-06-24,2027-03-10,fabio_ferretti
+268,Numismatica- Livello Avanzato,2025-07-02,2026-10-24,giovanni_colombi
+269,Filologia Romanza- Livello Avanzato,2025-07-20,2026-12-27,giovanni_colombi
+270,Storia dell'Impero Romano- Livello Avanzato,2026-06-06,2027-02-07,laura_salvi
+271,La Grande Guerra- Livello Avanzato,2027-04-19,2027-08-13,paola_damico
+272,Storia della Seconda Guerra Mondiale- Livello Avanzato,2025-06-29,2027-05-22,paola_damico
+273,Geopolitica Contemporanea- Livello Avanzato,2026-04-30,2027-01-22,paola_damico
+274,Relazioni Internazionali- Livello Avanzato,2026-01-12,2026-09-24,paola_damico
+275,Storia dell'Asia- Livello Avanzato,2027-05-11,2027-09-12,paola_damico
+276,Cultura Africana- Livello Avanzato,2026-12-31,2027-01-29,olga_cattaneo
+277,Musica Jazz- Livello Avanzato,2026-05-04,2026-10-31,olga_cattaneo
+278,Opera Lirica Italiana- Livello Avanzato,2026-01-20,2026-12-19,giada_ferretti
+279,Storia del Rock- Livello Avanzato,2026-04-02,2026-08-07,andrea_milani
+280,Pittura Impressionista- Livello Avanzato,2026-04-30,2027-03-27,andrea_milani
+281,Scultura Classica- Livello Avanzato,2025-12-31,2026-12-25,andrea_milani
+282,Architettura Moderna- Livello Avanzato,2026-10-27,2026-11-29,katia_mele
+283,Design Industriale- Livello Avanzato,2026-03-18,2026-09-25,katia_mele
+284,Fotografia- Livello Avanzato,2024-10-05,2025-02-07,ilaria_bassi
+285,Storia del Cinema- Livello Avanzato,2024-07-13,2024-11-11,martina_moro
+286,Letteratura Latino-Americana- Livello Avanzato,2024-06-29,2024-09-26,giulia_damico
+287,Poesia del '900- Livello Avanzato,2026-05-24,2027-02-24,ilaria_bruni
+288,Il Romanzo Moderno- Livello Avanzato,2026-01-23,2026-11-16,ilaria_bruni
+289,Narrativa Contemporanea- Livello Avanzato,2025-12-29,2027-03-15,ilaria_bruni
+290,Graphic Novel- Livello Avanzato,2025-12-21,2026-11-22,elisa_lodi
+291,Fumetto Italiano- Livello Avanzato,2026-05-12,2027-05-09,elisa_lodi
+292,Videogame e Cultura Pop- Livello Avanzato,2025-12-13,2027-02-20,elisa_lodi
+293,Gastronomia Internazionale- Livello Avanzato,2026-06-06,2027-02-14,miriam_santoro
+294,Storia del Vino- Livello Avanzato,2027-04-17,2027-10-07,miriam_santoro
+295,Enologia Italiana- Livello Avanzato,2025-08-22,2027-02-27,miriam_santoro
+296,Barista e Caffetteria- Livello Avanzato,2026-01-03,2026-08-11,alberto_pisano
+297,Sommelier Base- Livello Avanzato,2026-03-31,2026-07-19,alberto_pisano
+298,Sport Invernali- Livello Avanzato,2025-10-03,2027-05-07,alessia_deluca
+299,Sport Nautici- Livello Avanzato,2025-12-19,2026-11-20,alessia_deluca
+300,Atletica Leggera- Livello Avanzato,2026-01-05,2027-06-11,lorenzo_milani
+301,Storia del Calcio- Livello Avanzato,2025-08-08,2027-05-26,lorenzo_milani
+302,Regole del Basketball- Livello Avanzato,2026-01-10,2026-08-16,lorenzo_milani
+303,Tennis e Grand Slam- Livello Avanzato,2025-12-12,2026-11-21,lorenzo_milani
+304,Formula 1 e Motorsport- Livello Avanzato,2027-05-03,2027-06-17,andrea_caputo
+305,Moto GP- Livello Avanzato,2025-09-02,2027-06-03,andrea_caputo
+306,Ciclismo e Tour de France- Livello Avanzato,2025-12-30,2026-12-04,anna_martinelli
+307,Scacchi- Livello Avanzato,2027-06-21,2027-12-14,anna_martinelli
+308,Bridge e Giochi di Carte- Livello Avanzato,2025-08-27,2027-06-26,anna_martinelli
+309,Poker Teorico- Livello Avanzato,2026-12-04,2027-05-03,anna_martinelli
+310,Danza Classica- Livello Avanzato,2026-01-10,2026-09-02,anna_martinelli
+311,Teatro e Drammaturgia- Livello Avanzato,2024-03-07,2024-07-26,anna_quaranta
+312,Circo e Arti Performative- Livello Avanzato,2026-06-18,2026-12-31,chiara_salvi
+313,Storia dell'Antica Grecia- Parte I,2026-03-10,2026-12-20,chiara_salvi
+314,Chimica Organica Base- Parte I,2027-03-04,2027-04-29,chiara_salvi
+315,Fisica Newtoniana- Parte I,2026-04-18,2026-09-16,chiara_salvi
+316,Letteratura del '900- Parte I,2026-05-07,2027-03-15,irene_sorrentino
+317,Matematica Finanziaria- Parte I,2024-12-19,2025-01-04,irene_sorrentino
+318,Biologia Cellulare- Parte I,2024-08-24,2024-10-03,irene_sorrentino
+319,Geografia Europea- Parte I,2025-07-08,2027-05-14,federica_carbone2
+320,Astronomia e Cosmologia- Parte I,2026-09-21,2027-01-18,riccardo_sanna
+321,Lingue Neolatine- Parte I,2025-12-23,2027-06-10,riccardo_sanna
+322,Arte Medievale- Parte I,2025-01-18,2025-03-25,chiara_silvestri
+323,Cinema d'Autore- Parte I,2027-02-24,2027-04-21,andrea_fazio
+324,Cucina Regionale Italiana- Parte I,2025-09-08,2027-02-09,andrea_cattaneo
+325,Informatica di Base- Parte I,2026-02-03,2027-01-10,andrea_cattaneo
+326,Diritto Costituzionale- Parte I,2026-03-17,2027-05-04,alessio_palermo
+327,Economia Aziendale- Parte I,2026-02-19,2026-07-25,alessio_palermo
+328,Storia della Musica- Parte I,2026-08-31,2026-11-18,noemi_moro
+329,Filosofia Greca- Parte I,2026-04-06,2026-11-15,matteo_biffi
+330,Anatomia Umana- Parte I,2025-10-08,2026-09-12,matteo_biffi
+331,Ecologia e Ambiente- Parte I,2027-02-14,2027-05-21,giada_perna
+332,Sport e Olimpiadi- Parte I,2027-01-27,2027-02-16,giada_perna
+333,Psicologia Cognitiva- Parte I,2025-12-18,2026-10-27,claudia_poli
+334,Sociologia Urbana- Parte I,2026-01-15,2026-08-18,silvia_rosati
+335,Storia del Rinascimento- Parte I,2027-05-27,2027-08-27,silvia_rosati
+336,Letteratura Inglese- Parte I,2026-01-22,2026-02-07,maria_longo
+337,Matematica Discreta- Parte I,2025-10-29,2027-06-20,maria_longo
+338,Reti di Computer- Parte I,2025-08-16,2026-07-01,cinzia_vitale
+339,Algoritmi e Strutture Dati- Parte I,2026-07-08,2026-09-18,cinzia_vitale
+340,Marketing Digitale- Parte I,2026-04-12,2027-04-05,cinzia_vitale
+341,Gestione Aziendale- Parte I,2026-01-31,2026-10-28,francesca_quaranta
+342,Storia dell'Arte Moderna- Parte I,2026-06-03,2026-10-29,francesca_quaranta
+343,Fisica Quantistica- Parte I,2025-08-13,2027-02-18,francesca_quaranta
+344,Chimica Inorganica- Parte I,2025-10-15,2027-04-30,francesca_quaranta
+345,Biologia Marina- Parte I,2025-08-08,2027-03-19,lorenzo_fazio
+346,Geologia e Vulcani- Parte I,2026-06-27,2027-05-09,claudia_conte
+347,Meteorologia- Parte I,2025-07-20,2026-08-11,federica_monti
+348,Linguistica Italiana- Parte I,2025-12-25,2026-08-02,monica_fazio
+349,Numeri e Crittografia- Parte I,2027-04-03,2027-08-17,monica_fazio
+350,Mitologia Greca e Romana- Parte I,2024-08-29,2025-01-24,monica_fazio
+351,Storia Medievale- Parte I,2025-10-30,2026-07-21,monica_fazio
+352,Cultura Asiatica- Parte I,2025-05-02,2025-07-09,cinzia_ferretti
+353,Letteratura Russa- Parte I,2024-08-20,2024-09-22,cinzia_ferretti
+354,Economia Globale- Parte I,2025-06-11,2025-07-22,matteo_napoli
+355,Zoologia- Parte I,2025-09-21,2026-12-19,matteo_napoli
+356,Botanica- Parte I,2024-10-31,2025-03-09,lorenzo_rega
+357,Farmacologia Base- Parte I,2026-01-17,2026-02-09,lorenzo_rega
+358,Diritto Internazionale- Parte I,2025-02-28,2025-03-16,sofia_conte
+359,Storia della Tecnologia- Parte I,2026-06-06,2026-12-07,laura_biffi
+360,Robotica- Parte I,2027-03-19,2027-07-05,laura_biffi
+361,Intelligenza Artificiale- Parte I,2027-04-03,2027-08-09,silvia_rosati2
+362,Machine Learning Base- Parte I,2025-07-31,2026-10-04,silvia_rosati2
+363,Statistica Applicata- Parte I,2025-07-27,2026-12-15,sara_corti
+364,Calcolo Integrale- Parte I,2025-12-21,2027-02-07,alberto_benedetti
+365,Topologia- Parte I,2027-02-09,2027-05-25,alberto_benedetti
+366,Teoria dei Giochi- Parte I,2026-03-24,2027-03-10,alberto_benedetti
+367,Storia della Filosofia- Parte I,2025-01-28,2025-06-16,alberto_benedetti
+368,Epistemologia- Parte I,2026-05-16,2027-02-01,alberto_benedetti
+369,Etica e Morale- Parte I,2027-04-04,2027-06-25,miriam_lodi
+370,Teologia Comparata- Parte I,2026-05-18,2026-12-13,miriam_lodi
+371,Archeologia Classica- Parte I,2025-04-19,2025-08-18,miriam_lodi
+372,Numismatica- Parte I,2025-02-27,2025-04-17,miriam_lodi
+373,Filologia Romanza- Parte I,2025-03-04,2025-07-03,jessica_monti
+374,Storia dell'Impero Romano- Parte I,2025-12-29,2027-05-09,jessica_monti
+375,La Grande Guerra- Parte I,2026-11-16,2027-05-05,jessica_monti
+376,Storia della Seconda Guerra Mondiale- Parte I,2025-08-05,2027-01-22,cinzia_palermo
+377,Geopolitica Contemporanea- Parte I,2025-07-15,2026-09-18,cinzia_palermo
+378,Relazioni Internazionali- Parte I,2026-09-10,2027-02-19,cinzia_palermo
+379,Storia dell'Asia- Parte I,2025-03-21,2025-04-05,cinzia_palermo
+380,Cultura Africana- Parte I,2026-02-27,2027-05-25,cinzia_palermo
+381,Musica Jazz- Parte I,2025-12-13,2027-04-15,luca_bruni
+382,Opera Lirica Italiana- Parte I,2026-04-10,2027-06-11,luca_bruni
+383,Storia del Rock- Parte I,2026-05-19,2027-04-18,valentina_fabbri
+384,Pittura Impressionista- Parte I,2025-12-22,2027-01-18,silvia_bassi
+385,Scultura Classica- Parte I,2026-02-05,2026-11-03,silvia_bassi
+386,Architettura Moderna- Parte I,2025-10-05,2027-01-13,sofia_casini
+387,Design Industriale- Parte I,2026-08-28,2026-11-10,sofia_casini
+388,Fotografia- Parte I,2024-03-08,2024-07-07,silvia_fabbri
+389,Storia del Cinema- Parte I,2025-08-18,2026-11-22,silvia_fabbri
+390,Letteratura Latino-Americana- Parte I,2026-03-31,2027-02-11,chiara_rinaldi
+391,Poesia del '900- Parte I,2027-06-13,2027-09-09,chiara_rinaldi
+392,Il Romanzo Moderno- Parte I,2024-06-08,2024-07-01,jessica_mele
+393,Narrativa Contemporanea- Parte I,2026-01-30,2026-11-29,jessica_mele
+394,Graphic Novel- Parte I,2027-06-28,2027-12-15,jessica_mele
+395,Fumetto Italiano- Parte I,2026-03-17,2026-09-08,lorenzo_quaranta
+396,Videogame e Cultura Pop- Parte I,2025-10-18,2026-07-12,lorenzo_quaranta
+397,Gastronomia Internazionale- Parte I,2025-09-07,2027-01-03,lorenzo_quaranta
+398,Storia del Vino- Parte I,2025-09-18,2026-09-03,alessio_carbone
+399,Enologia Italiana- Parte I,2026-03-08,2026-03-31,alessio_carbone
+400,Barista e Caffetteria- Parte I,2025-10-25,2027-03-25,alessio_carbone
+401,Sommelier Base- Parte I,2026-04-24,2026-12-08,sofia_cattaneo
+402,Sport Invernali- Parte I,2024-11-18,2025-03-24,stefano_salvi2
+403,Sport Nautici- Parte I,2025-06-01,2025-07-10,stefano_salvi2
+404,Atletica Leggera- Parte I,2027-04-07,2027-09-24,stefano_salvi2
+405,Storia del Calcio- Parte I,2025-10-13,2026-07-27,davide_martinelli
+406,Regole del Basketball- Parte I,2026-04-06,2026-12-11,elena_conte
+407,Tennis e Grand Slam- Parte I,2026-10-22,2027-01-25,elena_conte
+408,Formula 1 e Motorsport- Parte I,2027-03-21,2027-06-08,elena_conte
+409,Moto GP- Parte I,2024-09-24,2024-12-10,alberto_benedetti2
+410,Ciclismo e Tour de France- Parte I,2026-01-23,2027-05-09,alberto_benedetti2
+411,Scacchi- Parte I,2025-10-13,2027-05-23,alberto_benedetti2
+412,Bridge e Giochi di Carte- Parte I,2025-09-03,2026-09-15,pietro_salvi
+413,Poker Teorico- Parte I,2026-12-18,2027-05-18,pietro_santoro2
+414,Danza Classica- Parte I,2026-06-13,2026-08-09,pietro_santoro2
+415,Teatro e Drammaturgia- Parte I,2025-08-03,2027-04-20,pietro_santoro2
+416,Circo e Arti Performative- Parte I,2026-03-12,2027-04-17,francesco_sala
+417,Storia dell'Antica Grecia- Parte II,2025-08-04,2026-07-14,francesco_sala
+418,Chimica Organica Base- Parte II,2025-08-10,2027-04-04,francesco_sala
+419,Fisica Newtoniana- Parte II,2026-01-24,2027-03-03,francesco_sala
+420,Letteratura del '900- Parte II,2025-11-07,2026-08-05,silvia_negri
+421,Matematica Finanziaria- Parte II,2025-09-20,2026-01-17,silvia_negri
+422,Biologia Cellulare- Parte II,2025-11-02,2026-10-11,tomaso_ferrara
+423,Geografia Europea- Parte II,2026-04-15,2026-12-06,tomaso_ferrara
+424,Astronomia e Cosmologia- Parte II,2026-12-09,2027-03-14,tomaso_ferrara
+425,Lingue Neolatine- Parte II,2026-09-03,2026-12-13,tomaso_ferrara
+426,Arte Medievale- Parte II,2026-05-04,2026-12-09,tomaso_ferrara
+427,Cinema d'Autore- Parte II,2026-04-16,2026-08-17,miriam_palma
+428,Cucina Regionale Italiana- Parte II,2025-12-13,2027-05-10,miriam_palma
+429,Informatica di Base- Parte II,2026-04-07,2026-12-13,maria_bruni
+430,Diritto Costituzionale- Parte II,2026-12-06,2027-01-30,maria_bruni
+431,Economia Aziendale- Parte II,2024-09-17,2025-02-02,maria_bruni
+432,Storia della Musica- Parte II,2026-05-12,2027-01-16,simone_longo
+433,Filosofia Greca- Parte II,2026-02-24,2026-10-17,simone_longo
+434,Anatomia Umana- Parte II,2026-06-03,2026-07-24,simone_longo
+435,Ecologia e Ambiente- Parte II,2027-06-08,2027-10-13,valentina_celli
+436,Sport e Olimpiadi- Parte II,2026-06-23,2026-08-23,valentina_celli
+437,Psicologia Cognitiva- Parte II,2026-02-12,2027-01-02,flavio_longo
+438,Sociologia Urbana- Parte II,2025-05-31,2025-06-18,flavio_longo
+439,Storia del Rinascimento- Parte II,2025-09-09,2027-04-12,flavio_longo
+440,Letteratura Inglese- Parte II,2025-09-17,2026-11-23,flavio_longo
+441,Matematica Discreta- Parte II,2025-04-01,2025-09-14,laura_rinaldi2
+442,Reti di Computer- Parte II,2026-01-18,2026-02-26,laura_rinaldi2
+443,Algoritmi e Strutture Dati- Parte II,2027-01-16,2027-04-28,laura_rinaldi2
+444,Marketing Digitale- Parte II,2025-02-16,2025-07-15,laura_rinaldi2
+445,Gestione Aziendale- Parte II,2026-09-10,2026-11-06,giada_rosati
+446,Storia dell'Arte Moderna- Parte II,2024-12-28,2025-05-12,giada_rosati
+447,Fisica Quantistica- Parte II,2026-06-08,2026-09-07,giada_rosati
+448,Chimica Inorganica- Parte II,2026-04-12,2027-05-05,federica_fabbri
+449,Biologia Marina- Parte II,2026-12-09,2027-01-26,silvia_pisano
+450,Geologia e Vulcani- Parte II,2025-08-16,2026-11-29,silvia_pisano
+451,Meteorologia- Parte II,2025-10-11,2027-03-16,silvia_pisano
+452,Linguistica Italiana- Parte II,2025-06-30,2027-04-13,cinzia_negri
+453,Numeri e Crittografia- Parte II,2025-07-18,2026-08-24,carmine_gentile
+454,Mitologia Greca e Romana- Parte II,2027-04-23,2027-07-17,giorgio_alfano
+455,Storia Medievale- Parte II,2024-02-06,2024-07-23,giorgio_alfano
+456,Cultura Asiatica- Parte II,2025-10-28,2026-11-11,giorgio_alfano
+457,Letteratura Russa- Parte II,2027-04-21,2027-09-22,giorgio_alfano
+458,Economia Globale- Parte II,2026-06-01,2027-04-23,giorgio_alfano
+459,Zoologia- Parte II,2025-04-20,2025-06-03,marco_alfano
+460,Botanica- Parte II,2026-10-31,2026-11-15,marco_alfano
+461,Farmacologia Base- Parte II,2025-11-14,2026-12-06,flavio_pisano
+462,Diritto Internazionale- Parte II,2025-10-14,2027-05-08,giorgio_rosati
+463,Storia della Tecnologia- Parte II,2026-07-30,2026-09-10,giulia_gentile
+464,Robotica- Parte II,2025-09-13,2026-12-12,giulia_gentile
+465,Intelligenza Artificiale- Parte II,2027-02-28,2027-07-19,giulia_gentile
+466,Machine Learning Base- Parte II,2025-09-28,2026-12-21,anna_ferrara
+467,Statistica Applicata- Parte II,2025-07-16,2027-06-12,anna_ferrara
+468,Calcolo Integrale- Parte II,2024-05-05,2024-07-18,anna_ferrara
+469,Topologia- Parte II,2025-10-04,2025-12-13,anna_ferrara
+470,Teoria dei Giochi- Parte II,2026-01-26,2026-10-22,anna_ferrara
+471,Storia della Filosofia- Parte II,2024-05-07,2024-07-06,noemi_de_marco
+472,Epistemologia- Parte II,2024-11-16,2025-02-12,noemi_de_marco
+473,Etica e Morale- Parte II,2025-09-14,2026-11-16,noemi_de_marco
+474,Teologia Comparata- Parte II,2025-09-07,2027-06-10,noemi_de_marco
+475,Archeologia Classica- Parte II,2025-12-07,2026-12-22,noemi_de_marco
+476,Numismatica- Parte II,2026-01-31,2026-08-08,ivan_de_luca
+477,Filologia Romanza- Parte II,2025-11-13,2027-05-30,ivan_de_luca
+478,Storia dell'Impero Romano- Parte II,2025-10-25,2026-10-16,ivan_de_luca
+479,La Grande Guerra- Parte II,2025-09-25,2026-11-14,ivan_de_luca
+480,Storia della Seconda Guerra Mondiale- Parte II,2027-06-20,2027-09-04,ivan_de_luca
+481,Geopolitica Contemporanea- Parte II,2025-08-16,2027-04-25,laura_angeli
+482,Relazioni Internazionali- Parte II,2026-10-22,2027-04-10,ivan_de_rosa
+483,Storia dell'Asia- Parte II,2026-05-07,2027-01-26,ivan_de_rosa
+484,Cultura Africana- Parte II,2025-10-29,2026-08-19,emanuele_grassi
+485,Musica Jazz- Parte II,2026-01-30,2026-02-07,emanuele_grassi
+486,Opera Lirica Italiana- Parte II,2025-07-28,2027-02-27,federica_sanna
+487,Storia del Rock- Parte II,2026-03-17,2026-11-23,federica_sanna
+488,Pittura Impressionista- Parte II,2025-08-01,2026-07-29,federica_sanna
+489,Scultura Classica- Parte II,2026-08-13,2027-02-02,federica_sanna
+490,Architettura Moderna- Parte II,2025-09-27,2026-07-18,federica_sanna
+491,Design Industriale- Parte II,2026-09-26,2027-01-17,claudia_guida
+492,Fotografia- Parte II,2027-01-18,2027-05-31,giulia_biffi
+493,Storia del Cinema- Parte II,2026-01-30,2026-07-18,giulia_biffi
+494,Letteratura Latino-Americana- Parte II,2025-09-10,2027-05-03,giulia_biffi
+495,Poesia del '900- Parte II,2026-01-07,2026-11-21,ernesto_riva
+496,Il Romanzo Moderno- Parte II,2026-04-20,2027-03-14,claudia_napoli
+497,Narrativa Contemporanea- Parte II,2026-03-21,2026-08-25,claudia_napoli
+498,Graphic Novel- Parte II,2025-11-05,2027-05-26,claudia_napoli
+499,Fumetto Italiano- Parte II,2025-03-30,2025-08-29,elena_grassi
+500,Videogame e Cultura Pop- Parte II,2025-10-22,2025-12-12,elena_grassi
+501,Gastronomia Internazionale- Parte II,2024-05-24,2024-09-11,francesco_quaranta
+502,Storia del Vino- Parte II,2027-03-19,2027-06-17,francesco_quaranta
+503,Enologia Italiana- Parte II,2025-07-20,2026-08-16,francesco_quaranta
+504,Barista e Caffetteria- Parte II,2026-02-20,2026-07-02,nicola_quaranta
+505,Sommelier Base- Parte II,2026-02-27,2027-02-12,nicola_quaranta
+506,Sport Invernali- Parte II,2025-05-02,2025-07-25,davide_fabbri
+507,Sport Nautici- Parte II,2025-09-07,2026-07-04,davide_fabbri
+508,Atletica Leggera- Parte II,2025-12-25,2027-06-18,davide_fabbri
+509,Storia del Calcio- Parte II,2026-04-07,2027-01-22,serena_colombi
+510,Regole del Basketball- Parte II,2024-04-12,2024-07-07,serena_colombi
+511,Tennis e Grand Slam- Parte II,2024-06-21,2024-09-11,laura_fazio
+512,Formula 1 e Motorsport- Parte II,2026-03-06,2026-10-19,laura_fazio
+513,Moto GP- Parte II,2027-02-28,2027-04-15,laura_fazio
+514,Ciclismo e Tour de France- Parte II,2025-08-21,2027-01-06,laura_fazio
+515,Scacchi- Parte II,2025-09-25,2027-06-04,francesco_pagano
+516,Bridge e Giochi di Carte- Parte II,2026-11-02,2027-04-10,francesco_pagano
+517,Poker Teorico- Parte II,2026-08-09,2026-12-28,francesco_pagano
+518,Danza Classica- Parte II,2025-09-12,2026-08-25,sofia_longo
+519,Teatro e Drammaturgia- Parte II,2025-09-20,2027-03-14,sofia_longo
+520,Circo e Arti Performative- Parte II,2025-09-26,2026-09-13,sofia_longo
+521,Storia dell'Antica Grecia- Test,2025-07-14,2026-10-12,jessica_colombi
+522,Chimica Organica Base- Test,2025-01-13,2025-02-12,jessica_colombi
+523,Fisica Newtoniana- Test,2027-02-12,2027-03-05,jessica_colombi
+524,Letteratura del '900- Test,2025-10-08,2027-01-27,jessica_colombi
+525,Matematica Finanziaria- Test,2026-05-29,2027-04-11,luca_rinaldo
+526,Biologia Cellulare- Test,2026-01-21,2026-07-10,luca_rinaldo
+527,Geografia Europea- Test,2026-06-26,2026-10-18,luca_rinaldo
+528,Astronomia e Cosmologia- Test,2026-06-04,2027-01-31,luca_rinaldo
+529,Lingue Neolatine- Test,2026-05-26,2027-04-02,luca_rinaldo
+530,Arte Medievale- Test,2025-10-29,2026-07-15,giorgio_napoli
+531,Cinema d'Autore- Test,2026-03-27,2026-09-06,giorgio_napoli
+532,Cucina Regionale Italiana- Test,2024-05-13,2024-09-04,giorgio_napoli
+533,Informatica di Base- Test,2025-12-14,2027-02-13,giorgio_napoli
+534,Diritto Costituzionale- Test,2027-01-08,2027-04-21,giorgio_napoli
+535,Economia Aziendale- Test,2025-07-24,2027-04-01,giada_amato
+536,Storia della Musica- Test,2025-12-31,2026-08-28,giada_amato
+537,Filosofia Greca- Test,2026-03-05,2026-06-30,sara_colombi
+538,Anatomia Umana- Test,2025-04-23,2025-08-26,sara_colombi
+539,Ecologia e Ambiente- Test,2024-08-24,2024-12-17,sara_colombi
+540,Sport e Olimpiadi- Test,2026-03-02,2026-11-02,matteo_guida
+541,Psicologia Cognitiva- Test,2026-04-09,2026-11-17,matteo_guida
+542,Sociologia Urbana- Test,2026-05-01,2026-07-15,matteo_guida
+543,Storia del Rinascimento- Test,2027-01-29,2027-07-12,matteo_guida
+544,Letteratura Inglese- Test,2026-03-14,2026-08-02,cinzia_fazio
+545,Matematica Discreta- Test,2026-06-10,2027-02-12,cinzia_fazio
+546,Reti di Computer- Test,2026-06-05,2027-01-20,alessio_angeli
+547,Algoritmi e Strutture Dati- Test,2026-03-20,2026-05-01,francesca_milani
+548,Marketing Digitale- Test,2026-01-30,2026-10-26,francesca_milani
+549,Gestione Aziendale- Test,2027-04-19,2027-07-16,francesca_milani

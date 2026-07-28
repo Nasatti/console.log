@@ -1,0 +1,78 @@
+{% load static %}
+{# Template AJAX per la tabella quiz con paginazione e ordinamento server-side #}
+
+{% if not quiz_list %}
+  <div class="empty-state extracted-style-b2959f">
+    <div class="empty-icon">📂</div>
+    <p>Nessun quiz trovato con questi filtri.</p>
+  </div>
+{% else %}
+<p class="risultati-count">{{ totale }} {% if totale == 1 %}quiz trovato{% else %}quiz trovati{% endif %} — pagina {{ quiz_list.number }} di {{ quiz_list.paginator.num_pages }}</p>
+
+<table>
+  <thead>
+    <tr>
+      <th class="th-sort th-num" data-col="codice">ID{% if sort == 'codice' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}</th>
+      <th class="th-sort" data-col="titolo">Titolo{% if sort == 'titolo' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}</th>
+      <th class="th-sort" data-col="creatore">Creatore{% if sort == 'creatore' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}</th>
+      <th class="th-sort th-date" data-col="dataInizio">Data creazione / chiusura{% if sort == 'dataInizio' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}</th>
+      <th class="th-sort th-num" data-col="num_domande">Domande{% if sort == 'num_domande' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}</th>
+      <th class="th-sort th-num" data-col="num_partecipazioni">Part. / Media{% if sort == 'num_partecipazioni' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}</th>
+      <th>Stato</th>
+      <th>Azioni</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for q in quiz_list %}
+    <tr data-creatore="{{ q.creatore }}" data-partecipazioni="{{ q.num_partecipazioni }}" data-aperto="{% if q.aperto %}1{% else %}0{% endif %}" data-futuro="{% if q.futuro %}1{% else %}0{% endif %}">
+      <td class="td-num"><strong>#{{ q.codice }}</strong></td>
+      <td><strong><a href="{% url 'quiz_dettaglio' q.codice %}">{{ q.titolo }}</a></strong></td>
+      <td>
+        <a class="extracted-style-9bca1c" href="/utenti/?username={{ q.creatore }}">
+          <div class="extracted-style-cc91fa">{{ q.nome }} {{ q.cognome }}</div>
+          <div class="cell-sub">@{{ q.creatore }}</div>
+        </a>
+      </td>
+      <td class="td-date">{{ q.dataInizio }}<br>{{ q.dataFine }}</td>
+      <td class="td-num"><a href="{% url 'quiz_dettaglio' q.codice %}" class="num-link">{{ q.num_domande }}</a></td>
+      <td class="td-num">
+        <a href="/partecipazioni/?quiz_codice={{ q.codice }}" class="num-link">{{ q.num_partecipazioni }}</a>
+        <div class="cell-sub">{% if q.punteggio_medio %}{{ q.punteggio_medio }} pt media{% else %}—{% endif %}</div>
+      </td>
+      <td class="extracted-style-539b04">
+        {% if q.aperto %}
+          <span class="badge badge-open">✅ Aperto</span>
+        {% elif q.futuro %}
+          <span class="badge badge-upcoming">🕐 Futuro</span>
+        {% else %}
+          <span class="badge badge-closed">🔒 Chiuso</span>
+        {% endif %}
+      </td>
+      <td class="extracted-style-2138fa">
+        <div class="extracted-style-4311ce">
+          <a href="{% url 'quiz_dettaglio' q.codice %}" class="btn-icon-only btn-secondary" title="Dettagli">🔍</a>
+          {% if q.aperto %}
+            <a href="{% url 'partecipa' q.codice %}" class="btn-icon-only btn-success" title="Partecipa">▶</a>
+          {% endif %}
+          <a href="{% url 'quiz_modifica' q.codice %}" class="btn-icon-only btn-primary owner-btn extracted-style-93b8ea" title="Modifica" data-creatore="{{ q.creatore }}">✏️</a>
+          <a href="{% url 'quiz_elimina' q.codice %}" class="btn-icon-only btn-danger owner-btn extracted-style-93b8ea" title="Elimina" data-creatore="{{ q.creatore }}">🗑️</a>
+        </div>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{# Navigazione pagine #}
+{% if quiz_list.paginator.num_pages > 1 %}
+<div class="paginazione">
+  {% if quiz_list.has_previous %}
+    <button class="btn-pag" data-page="{{ quiz_list.previous_page_number }}">← Precedente</button>
+  {% endif %}
+  <span class="pag-info">Pagina {{ quiz_list.number }} / {{ quiz_list.paginator.num_pages }}</span>
+  {% if quiz_list.has_next %}
+    <button class="btn-pag" data-page="{{ quiz_list.next_page_number }}">Successiva →</button>
+  {% endif %}
+</div>
+{% endif %}
+{% endif %}

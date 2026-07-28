@@ -1,0 +1,200 @@
+{% extends 'quiz/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="home-wrapper">
+
+  <section class="home-hero">
+    <div class="hero-content">
+      <div class="hero-badge">🎓 Progetto Programmazione Web &mdash; A.A. 2025-2026</div>
+      <h2 class="hero-title">
+        Benvenuto su <span class="hero-brand">console<span class="hero-dot">.log</span></span>
+      </h2>
+      <p class="hero-desc">
+        La piattaforma per la gestione e la partecipazione a <strong>quiz online</strong>.<br>
+        Crea quiz, invita utenti, monitora i risultati e analizza le performance &mdash;
+        tutto in un'unica interfaccia.
+      </p>
+      <div class="hero-actions">
+        <a href="{% url 'quiz_lista' %}" class="btn btn-primary btn-lg">📋 Esplora i Quiz</a>
+        <a href="{% url 'quiz_nuovo' %}" class="btn btn-secondary btn-lg">➕ Crea un Quiz</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-logo-big">Q</div>
+    </div>
+  </section>
+
+  <section class="home-stats-section">
+    <div class="section-label">📊 Statistiche in tempo reale</div>
+    <div class="home-stats-grid">
+      <div class="home-stat-card extracted-style-944a80">
+        <div class="stat-icon">📋</div>
+        <div class="stat-big" data-target="{{ n_quiz }}">0</div>
+        <div class="stat-name">Quiz Totali</div>
+        <div class="stat-sub">creati sulla piattaforma</div>
+      </div>
+      <div class="home-stat-card extracted-style-85cc8e">
+        <div class="stat-icon">👥</div>
+        <div class="stat-big" data-target="{{ n_utenti }}">0</div>
+        <div class="stat-name">Utenti Registrati</div>
+        <div class="stat-sub">pronti a sfidare</div>
+      </div>
+      <div class="home-stat-card extracted-style-672e2b">
+        <div class="stat-icon">📊</div>
+        <div class="stat-big" data-target="{{ n_partecipazioni }}">0</div>
+        <div class="stat-name">Partecipazioni</div>
+        <div class="stat-sub">quiz completati</div>
+      </div>
+      <div class="home-stat-card extracted-style-e00f86">
+        <div class="stat-icon">❓</div>
+        <div class="stat-big" data-target="{{ n_domande }}">0</div>
+        <div class="stat-name">Domande</div>
+        <div class="stat-sub">nel database</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-highlights">
+    {% if top and top.tot > 0 %}
+    <div class="highlight-card">
+      <div class="highlight-icon">🏆</div>
+      <div class="highlight-body">
+        <div class="highlight-label">Quiz più popolare</div>
+        <div class="highlight-value">
+        <a class="extracted-style-49cfb3" href="{% url 'quiz_dettaglio' top.codice %}">
+            {{ top.titolo }}
+          </a>
+        </div>
+        <div class="highlight-sub">{{ top.tot }} partecipazioni</div>
+      </div>
+    </div>
+    {% endif %}
+    {% if top_creatore and top_creatore.tot > 0 %}
+    <div class="highlight-card">
+      <div class="highlight-icon">✍️</div>
+      <div class="highlight-body">
+        <div class="highlight-label">Creatore più prolifico</div>
+        <div class="highlight-value">
+          <a class="extracted-style-49cfb3" href="{% url 'utenti' %}?username={{ top_creatore.nomeUtente }}">
+            {{ top_creatore.nome }} {{ top_creatore.cognome }}
+          </a>
+        </div>
+        <div class="highlight-sub">
+          {{ top_creatore.tot }} quiz creati &middot;
+          <a href="{% url 'quiz_lista' %}?creatore={{ top_creatore.nome }} {{ top_creatore.cognome }} ({{ top_creatore.nomeUtente }})">
+            vedi tutti &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    <div class="highlight-card">
+      <div class="highlight-icon">📅</div>
+      <div class="highlight-body">
+        <div class="highlight-label">Dati aggiornati al</div>
+        <div class="highlight-value">{{ oggi }}</div>
+        <div class="highlight-sub">Università degli Studi di Bergamo</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-features-section">
+    <div class="section-label">🗺️ Esplora il sito</div>
+    <div class="home-features-grid">
+      <div class="feature-card">
+        <div class="feature-icon-wrap extracted-style-1c9e5b">📋</div>
+        <h3>Quiz</h3>
+        <p>Sfoglia tutti i quiz disponibili, filtrali per titolo, creatore, stato e date. Crea nuovi quiz con domande e risposte multiple, modificali o eliminali.</p>
+        <div class="feature-stats">
+          <span class="f-stat"><strong>{{ n_quiz }}</strong> quiz</span>
+          <span class="f-stat"><strong>{{ n_domande }}</strong> domande</span>
+        </div>
+        <a href="{% url 'quiz_lista' %}" class="btn btn-primary btn-sm extracted-style-43f25b">Vai ai Quiz &rarr;</a>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap extracted-style-4e6085">👥</div>
+        <h3>Utenti</h3>
+        <p>Consulta gli utenti registrati sulla piattaforma, cerca per nome, cognome, username o email. Accedi al profilo di ogni utente e vedi le sue attività.</p>
+        <div class="feature-stats">
+          <span class="f-stat"><strong>{{ n_utenti }}</strong> utenti</span>
+        </div>
+        <a href="{% url 'utenti' %}" class="btn btn-success btn-sm extracted-style-43f25b">Vai agli Utenti &rarr;</a>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap extracted-style-544629">📊</div>
+        <h3>Partecipazioni</h3>
+        <p>Analizza tutte le partecipazioni ai quiz. Filtra per quiz, utente o punteggio. Monitora le performance e i progressi degli utenti nel tempo.</p>
+        <div class="feature-stats">
+          <span class="f-stat"><strong>{{ n_partecipazioni }}</strong> partecipazioni</span>
+        </div>
+        <a href="{% url 'partecipazioni' %}" class="btn btn-info btn-sm extracted-style-43f25b">Vai alle Partecipazioni &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  {% if ultimi %}
+  <section class="home-recent-section">
+    <div class="section-label">🕐 Ultimi quiz inseriti</div>
+    <div class="home-recent-table-wrap">
+      <table class="home-recent-table">
+        <thead>
+          <tr>
+            <th class="th-num">Codice</th>
+            <th>Titolo</th>
+            <th>Creatore</th>
+            <th class="th-date">Periodo</th>
+            <th class="th-num">Domande</th>
+            <th class="th-num">Partecipazioni</th>
+            <th class="extracted-style-539b04">Stato</th>
+            <th>Azioni</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for q in ultimi %}
+          <tr>
+            <td class="td-num"><strong>#{{ q.codice }}</strong></td>
+            <td><strong><a href="{% url 'quiz_dettaglio' q.codice %}">{{ q.titolo }}</a></strong></td>
+            <td>
+              <a class="extracted-style-da7d98" href="{% url 'utenti' %}?username={{ q.creatore }}">
+                <div class="extracted-style-7c4b5d">{{ q.nome }} {{ q.cognome }}</div>
+                <div class="extracted-style-11e62f">{{ q.creatore }}</div>
+              </a>
+            </td>
+            <td class="td-date">{{ q.dataInizio }}<br>{{ q.dataFine }}</td>
+            <td class="td-num"><a class="extracted-style-cc568f" href="{% url 'quiz_dettaglio' q.codice %}">{{ q.nDomande }} domande</a></td>
+            <td class="td-num"><a class="extracted-style-cc568f" href="{% url 'partecipazioni' %}?quiz_codice={{ q.codice }}">{{ q.nPartecipanti }} part.</a></td>
+            <td class="extracted-style-539b04">
+              {% if q.stato == 'aperto' %}
+                <span class="quiz-status-badge badge-open extracted-style-47d5f4" title="Aperto">✅</span>
+              {% elif q.stato == 'futuro' %}
+                <span class="quiz-status-badge badge-upcoming extracted-style-47d5f4" title="Non ancora iniziato">🕐</span>
+              {% else %}
+                <span class="quiz-status-badge badge-closed extracted-style-47d5f4" title="Chiuso">🔒</span>
+              {% endif %}
+            </td>
+            <td class="extracted-style-2138fa">
+              <div class="extracted-style-36f7aa">
+                <a href="{% url 'quiz_dettaglio' q.codice %}" class="btn-icon-only btn-secondary" title="Dettagli">🔍</a>
+                {% if q.stato == 'aperto' %}
+                  <a href="{% url 'partecipa' q.codice %}" class="btn-icon-only btn-success" title="Partecipa">&#9654;</a>
+                {% endif %}
+              </div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="extracted-style-f114d0">
+      <a href="{% url 'quiz_lista' %}" class="btn btn-outline btn-sm">Vedi tutti i quiz &rarr;</a>
+    </div>
+  </section>
+  {% endif %}
+
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+{% endblock %}

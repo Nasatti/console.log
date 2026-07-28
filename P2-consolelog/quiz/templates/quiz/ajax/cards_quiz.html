@@ -1,0 +1,41 @@
+{# Template AJAX per le card quiz (view a griglia) — per il futuro usato anche nella home #}
+{% if not quiz_list %}
+  <div class="empty-state"><div class="empty-icon">🔍</div><p>Nessun quiz trovato con i filtri selezionati.</p></div>
+{% else %}
+<div class="quiz-grid">
+  {% for q in quiz_list %}
+  <div class="quiz-card">
+    <div class="quiz-card-top">
+      <div class="quiz-code">Quiz #{{ q.codice }}</div>
+      <h3>{{ q.titolo }}</h3>
+      {% if q.aperto %}
+        <span class="quiz-status-badge badge-open">✅ Aperto</span>
+      {% elif q.futuro %}
+        <span class="quiz-status-badge badge-upcoming">🕐 Futuro</span>
+      {% else %}
+        <span class="quiz-status-badge badge-closed">🔒 Chiuso</span>
+      {% endif %}
+    </div>
+    <div class="quiz-card-body">
+      <div class="quiz-meta">
+        <span>👤 {{ q.nome }} {{ q.cognome }}</span>
+        <span>📅 {{ q.dataInizio }} → {{ q.dataFine }}</span>
+      </div>
+      <div class="quiz-stats">
+        <div class="stat-item"><div class="stat-num">{{ q.num_domande }}</div><div class="stat-label">Domande</div></div>
+        <div class="stat-item"><div class="stat-num">{{ q.num_partecipazioni }}</div><div class="stat-label">Partecipazioni</div></div>
+        <div class="stat-item"><div class="stat-num">{% if q.punteggio_medio %}{{ q.punteggio_medio }} pt{% else %}-{% endif %}</div><div class="stat-label">Media</div></div>
+      </div>
+    </div>
+    <div class="quiz-card-footer">
+      <a href="#" class="btn btn-secondary btn-sm nav-post" data-url="{% url 'quiz_dettaglio' %}" data-quiz-id="{{ q.codice }}">🔍 Dettagli</a>
+      <a href="#" class="btn btn-outline btn-sm nav-post" data-url="{% url 'quiz_modifica' %}" data-quiz-id="{{ q.codice }}">✏️ Modifica</a>
+      <a href="#" class="btn btn-danger btn-sm nav-post" data-url="{% url 'quiz_elimina' %}" data-quiz-id="{{ q.codice }}">🗑</a>
+      {% if q.aperto %}
+        <a href="#" class="btn btn-success btn-sm nav-post" data-url="{% url 'partecipa' %}" data-quiz-id="{{ q.codice }}">▶ Partecipa</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

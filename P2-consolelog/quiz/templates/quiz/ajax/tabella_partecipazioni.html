@@ -1,0 +1,66 @@
+{% load static %}
+{# Template AJAX per la tabella partecipazioni con paginazione e ordinamento server-side #}
+{% if not part_list %}
+  <div class="empty-state extracted-style-7cfaff"><div class="empty-icon">📊</div><p>Nessuna partecipazione trovata.</p></div>
+{% else %}
+<p class="risultati-count">{{ totale }} partecipazioni trovate — pagina {{ part_list.number }} di {{ part_list.paginator.num_pages }}</p>
+<table>
+  <thead>
+    <tr>
+      <th class="th-sort th-num" data-col="codice">
+        Codice{% if sort == 'codice' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+      <th class="th-sort th-date" data-col="data">
+        Data{% if sort == 'data' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+      <th class="th-sort" data-col="nomeUtente">
+        Utente{% if sort == 'nomeUtente' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+      <th class="th-sort" data-col="quiz_titolo">
+        Quiz{% if sort == 'quiz_titolo' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+      <th class="th-sort th-num" data-col="percentuale">
+        Punteggio %{% if sort == 'percentuale' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+      <th>Azioni</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for p in part_list %}
+    <tr>
+      <td class="td-num"><strong>#{{ p.codice }}</strong></td>
+      <td class="td-date">{{ p.data }}</td>
+      <td>
+        <a class="extracted-style-9bca1c" href="/utenti/?username={{ p.nomeUtente }}">
+          <div class="extracted-style-cc91fa">{{ p.utente_cognome }}, {{ p.utente_nome }}</div>
+          <div class="cell-sub">@{{ p.nomeUtente }}</div>
+        </a>
+      </td>
+      <td>
+        <a class="extracted-style-9bca1c" href="{% url 'quiz_dettaglio' p.codiceQuiz %}">
+          <div class="extracted-style-cc91fa">{{ p.quiz_titolo }}</div>
+          <div class="cell-sub">ID #{{ p.codiceQuiz }}</div>
+        </a>
+      </td>
+      <td class="td-num"><strong>{{ p.percentuale }}%</strong></td>
+      <td>
+        <a href="{% url 'risultato' p.codice %}" class="btn-icon-only btn-secondary" title="Dettaglio risultato">🔍</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{# Navigazione pagine #}
+{% if part_list.paginator.num_pages > 1 %}
+<div class="paginazione">
+  {% if part_list.has_previous %}
+    <button class="btn-pag" data-page="{{ part_list.previous_page_number }}">← Precedente</button>
+  {% endif %}
+  <span class="pag-info">Pagina {{ part_list.number }} / {{ part_list.paginator.num_pages }}</span>
+  {% if part_list.has_next %}
+    <button class="btn-pag" data-page="{{ part_list.next_page_number }}">Successiva →</button>
+  {% endif %}
+</div>
+{% endif %}
+{% endif %}

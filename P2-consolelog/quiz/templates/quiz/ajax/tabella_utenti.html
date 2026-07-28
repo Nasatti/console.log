@@ -1,0 +1,62 @@
+{% load static %}
+{# Template AJAX per la tabella utenti con paginazione e ordinamento server-side #}
+{% if not utenti_list %}
+  <div class="empty-state extracted-style-7cfaff"><div class="empty-icon">👥</div><p>Nessun utente trovato.</p></div>
+{% else %}
+<p class="risultati-count">{{ totale }} {% if totale == 1 %}utente trovato{% else %}utenti trovati{% endif %} — pagina {{ utenti_list.number }} di {{ utenti_list.paginator.num_pages }}</p>
+<table>
+  <thead>
+    <tr>
+      <th class="extracted-style-68dba3"></th>
+      <th class="th-sort" data-col="cognome">
+        Cognome{% if sort == 'cognome' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+      <th class="th-sort" data-col="nome">
+        Nome{% if sort == 'nome' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+      <th class="th-sort" data-col="nomeUtente">
+        Username{% if sort == 'nomeUtente' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+      <th class="th-sort" data-col="eMail">
+        Email{% if sort == 'eMail' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+      <th class="th-sort th-num" data-col="quiz_creati">
+        Quiz{% if sort == 'quiz_creati' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+      <th class="th-sort th-num" data-col="partecipazioni">
+        Partecipazioni{% if sort == 'partecipazioni' %} {% if dir == 'asc' %}↑{% else %}↓{% endif %}{% endif %}
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for u in utenti_list %}
+    <tr>
+      <td>
+        <div class="avatar extracted-style-36ca42">
+          {{ u.nome|first|upper }}{{ u.cognome|first|upper }}
+        </div>
+      </td>
+      <td><strong>{{ u.cognome }}</strong></td>
+      <td>{{ u.nome }}</td>
+      <td>@{{ u.nomeUtente }}</td>
+      <td>{{ u.eMail }}</td>
+      <td class="td-num"><a href="/quiz/?creatore={{ u.nomeUtente }}" class="num-link">{{ u.quiz_creati }}</a></td>
+      <td class="td-num"><a href="/partecipazioni/?utente={{ u.nomeUtente }}" class="num-link">{{ u.partecipazioni }}</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{# Navigazione pagine #}
+{% if utenti_list.paginator.num_pages > 1 %}
+<div class="paginazione">
+  {% if utenti_list.has_previous %}
+    <button class="btn-pag" data-page="{{ utenti_list.previous_page_number }}">← Precedente</button>
+  {% endif %}
+  <span class="pag-info">Pagina {{ utenti_list.number }} / {{ utenti_list.paginator.num_pages }}</span>
+  {% if utenti_list.has_next %}
+    <button class="btn-pag" data-page="{{ utenti_list.next_page_number }}">Successiva →</button>
+  {% endif %}
+</div>
+{% endif %}
+{% endif %}

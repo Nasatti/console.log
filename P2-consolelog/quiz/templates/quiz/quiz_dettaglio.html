@@ -1,0 +1,169 @@
+{% extends 'quiz/base.html' %}
+
+{% block title %}{{ quiz.titolo }}{% endblock %}
+
+{% block content %}
+<div class="main-wrapper">
+  <aside class="sidebar">
+    <h2>📋 Riepilogo</h2>
+
+    <div class="filter-group">
+      <label>Codice</label>
+      <div class="extracted-style-48f820">#{{ quiz.codice }}</div>
+    </div>
+    <div class="filter-group">
+      <label>Stato</label>
+      {% if aperto %}
+        <span class="quiz-status-badge badge-open extracted-style-1d8cbe" title="Aperto">✅ Aperto</span>
+      {% elif futuro %}
+        <span class="quiz-status-badge badge-upcoming extracted-style-1d8cbe" title="Non ancora iniziato">🕐 Futuro</span>
+      {% else %}
+        <span class="quiz-status-badge badge-closed extracted-style-1d8cbe" title="Chiuso">🔒 Chiuso</span>
+      {% endif %}
+    </div>
+    <div class="filter-group">
+      <label>Creatore</label>
+      <div><a href="{% url 'utenti' %}?username={{ quiz.creatore }}">{{ quiz.nome }} {{ quiz.cognome }}</a></div>
+      <div class="extracted-style-1fcc11">{{ quiz.eMail }}</div>
+    </div>
+    <div class="filter-group">
+      <label>Periodo</label>
+      <div class="extracted-style-b30001">
+        📅 Dal {{ quiz.dataInizio }}<br>al {{ quiz.dataFine }}
+      </div>
+    </div>
+
+    <hr class="extracted-style-d9d92a">
+
+    {# Bottoni modifica/elimina: mostrati via JS se sei creatore, nascosti se quiz ha partecipazioni o è già iniziato #}
+    {% if not ha_partecipazioni and futuro %}
+    <a href="{% url 'quiz_modifica' quiz.codice %}" class="btn btn-primary owner-action extracted-style-59b44b" data-creatore="{{ quiz.creatore }}">✏️ Modifica</a>
+    <a href="{% url 'quiz_elimina' quiz.codice %}" class="btn btn-danger owner-action extracted-style-59b44b" data-creatore="{{ quiz.creatore }}">🗑 Elimina</a>
+    {% endif %}
+
+    {% if aperto %}
+    <a href="{% url 'partecipa' quiz.codice %}" class="btn btn-success extracted-style-cf5a7a">
+      ▶ Partecipa
+    </a>
+    {% endif %}
+    <a href="{% url 'quiz_lista' %}" class="btn btn-outline extracted-style-299129">
+      ← Torna alla lista
+    </a>
+  </aside>
+
+  <main class="main-content">
+    <div class="breadcrumb">
+      <a href="{% url 'quiz_lista' %}">Quiz</a>
+      <span>›</span>
+      {{ quiz.titolo }}
+    </div>
+
+    <div class="detail-header">
+      <h2>{{ quiz.titolo }}</h2>
+      <div class="meta-row">
+        <span class="meta-pill">👤 <a class="extracted-style-2efd64" href="{% url 'utenti' %}?username={{ quiz.creatore }}">{{ quiz.nome }} {{ quiz.cognome }}</a></span>
+        <span class="meta-pill extracted-style-404e77">
+          📅 {{ quiz.dataInizio }} → {{ quiz.dataFine }}
+          <span class="extracted-style-43ae80">
+            {% if aperto %}<span class="badge-open extracted-style-31f7b6" title="Aperto">✅</span>
+            {% elif futuro %}<span class="badge-upcoming extracted-style-31f7b6" title="Non ancora iniziato">🕐</span>
+            {% else %}<span class="badge-closed extracted-style-31f7b6" title="Chiuso">🔒</span>{% endif %}
+          </span>
+        </span>
+      </div>
+    </div>
+
+    <div class="stats-bar">
+      <div class="stats-card">
+        <div class="stat-num">{{ quiz.num_domande }}</div>
+        <div class="stat-label">Domande</div>
+      </div>
+      <div class="stats-card">
+        <div class="stat-num"><a class="extracted-style-2efd64" href="{% url 'partecipazioni' %}?quiz_codice={{ quiz.codice }}">{{ quiz.num_partecipazioni }}</a></div>
+        <div class="stat-label">Partecipazioni</div>
+      </div>
+      <div class="stats-card">
+        <div class="stat-num">{% if quiz.punteggio_medio %}{{ quiz.punteggio_medio }}{% else %}-{% endif %}</div>
+        <div class="stat-label">Punteggio medio</div>
+      </div>
+    </div>
+
+    {# Sezione domande: sempre visibili, ma risposte solo al creatore (lato server) #}
+    <div class="domande-section" id="domande-section">
+      <h3 id="domande">❓ Domande del Quiz</h3>
+      {% if not domande %}
+        <div class="empty-state">
+          <div class="empty-icon">📭</div>
+          <p>Nessuna domanda presente per questo quiz.</p>
+        </div>
+      {% else %}
+        {% for dom in domande %}
+          <div class="domanda-item">
+            {% if is_owner %}
+              {# Creatore: domanda cliccabile con freccia + risposte #}
+              <div class="domanda-header domanda-header-toggle">
+                <span class="domanda-num">{{ dom.numero }}</span>
+                <span>{{ dom.testo }}</span>
+                <span class="extracted-style-d94d30">▼</span>
+              </div>
+              <div class="risposte-list extracted-style-93b8ea">
+                {% for r in dom.risposte %}
+                  <div class="risposta-item {% if r.punteggio %}corretta{% else %}sbagliata{% endif %}">
+                    {% if r.punteggio %}
+                      <span>✅</span>
+                      <span>{{ r.testo }}</span>
+                      <span class="extracted-style-eebd98">(+{{ r.punteggio }} pt)</span>
+                    {% else %}
+                      <span>❌</span>
+                      <span>{{ r.testo }}</span>
+                    {% endif %}
+                  </div>
+                {% endfor %}
+              </div>
+            {% else %}
+              {# Non creatore: solo testo domanda, niente freccia né risposte #}
+              <div class="domanda-header domanda-header-readonly">
+                <span class="domanda-num">{{ dom.numero }}</span>
+                <span>{{ dom.testo }}</span>
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    {% if partecipazioni %}
+    <div class="extracted-style-7df01f">
+      <h3 class="extracted-style-6b4788">
+        🏆 Ultime Partecipazioni
+      </h3>
+      <div class="table-wrap">
+        <table class="basic-table">
+          <thead>
+            <tr>
+              <th class="sortable th-num extracted-style-58aba5" title="Ordina">#</th>
+              <th class="sortable extracted-style-58aba5" title="Ordina">Utente</th>
+              <th class="sortable th-date extracted-style-58aba5" title="Ordina">Data</th>
+              <th class="sortable th-num extracted-style-58aba5" title="Ordina">Punteggio</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for p in partecipazioni %}
+            <tr>
+              <td class="td-num"><strong><a class="extracted-style-2efd64" href="{% url 'risultato' p.codice %}">#{{ p.codice }}</a></strong></td>
+              <td><a class="extracted-style-ec5818" href="{% url 'utenti' %}?username={{ p.nomeUtente }}">{{ p.nome }} {{ p.cognome }}</a></td>
+              <td class="td-date">{{ p.data }}</td>
+              <td class="td-num"><strong>{{ p.punteggio_tot|floatformat:1 }}</strong> pt</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% endif %}
+  </main>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+{% endblock %}

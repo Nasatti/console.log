@@ -1,0 +1,1654 @@
+numero,codiceQuiz,testo
+1,1,Chi guidò la spedizione dei Diecimila descritta nella Anabasi?
+1,2,Quale gruppo funzionale caratterizza un alcol?
+2,2,Qual è il monomero del polietilene?
+1,3,Cosa misura la quantità di moto?
+2,3,Quale legge afferma che F = ma?
+1,4,Qual è il titolo del capolavoro di Franz Kafka incentrato sulla metamorfosi?
+2,4,A quale corrente letteraria appartiene Marcel Proust?
+1,5,Cosa misura la duration di un'obbligazione?
+2,5,Qual è la formula dell'interesse semplice?
+3,5,Cosa calcola il tasso di interesse semplice?
+1,6,La membrana plasmatica è composta principalmente da?
+2,6,Quale processo permette alle cellule di duplicarsi?
+3,6,Quale organello cellulare è responsabile della produzione di energia (ATP)?
+4,6,Cosa contiene il nucleo cellulare?
+1,7,Qual è la capitale dell'Ungheria?
+2,7,Qual è la capitale della Polonia?
+3,7,Quale paese non fa parte dell'Unione Europea?
+1,8,Quale pianeta è noto per i suoi anelli?
+2,8,Cosa sono le stelle di neutroni?
+3,8,Cosa è una nebulosa?
+4,8,Quante galassie si stima contenga l'universo osservabile?
+1,9,Quale lingua neolatina ha il maggior numero di parlanti nel mondo?
+2,9,Quali lingue derivano dal Latino volgare?
+1,10,Quale tecnica pittorica era la più comune nell'arte medievale?
+2,10,Cosa caratterizza l'architettura gotica?
+3,10,La Cattedrale di Notre-Dame di Parigi è un esempio di quale stile?
+1,11,Chi è il regista di '8½'?
+2,11,A quale movimento cinematografico appartiene la Nouvelle Vague?
+3,11,Quale film di Andrei Tarkovsky è ambientato in una zona mistica?
+4,11,Chi diresse 'La dolce vita' del 1960?
+1,12,Il risotto alla Milanese è tradizionalmente aromatizzato con?
+2,12,In quale regione italiana si produce il Parmigiano Reggiano DOP?
+3,12,La 'bagna cauda' è un piatto tipico di quale regione?
+4,12,Qual è il dolce tipico della Campania consumato a Natale?
+1,13,Cosa significa CPU?
+2,13,Cosa fa un compilatore?
+3,13,Cosa significa RAM?
+4,13,Quale sistema operativo è sviluppato da Apple per i Mac?
+1,14,Il diritto di voto in Italia spetta ai cittadini che abbiano compiuto?
+1,15,Quale tipo di costo non varia al variare della produzione?
+2,15,Cos'è il break-even point?
+1,16,Chi compose la Quinta Sinfonia in Do minore?
+1,17,Cosa sosteneva la scuola atomista di Democrito?
+2,17,Cosa studia l'etica nella filosofia greca?
+3,17,Quale filosofo affermò che 'panta rei' (tutto scorre)?
+4,17,Chi è il fondatore del pensiero filosofico occidentale spesso indicato come il primo filosofo?
+5,17,Cosa significa il termine 'catarsi' nella filosofia di Aristotele?
+1,18,Il cuore umano ha quante camere?
+2,18,Quale struttura connette muscolo e osso?
+3,18,In quale parte del cervello si trovano i centri del linguaggio?
+4,18,Qual è l'osso più lungo del corpo umano?
+1,19,Quale accordo internazionale mira a ridurre le emissioni di gas serra?
+2,19,Cosa si intende per biodiversità?
+3,19,Quale gas è il principale responsabile dell'effetto serra antropogenico?
+4,19,Cosa è la catena alimentare?
+1,20,In quale città si sono svolte le Olimpiadi estive del 2020 (posticipate al 2021)?
+2,20,Quale sport prevede la gara di 'sincronizzato' in piscina?
+3,20,Quante discipline sportive erano presenti alle Olimpiadi di Parigi 2024?
+1,21,Chi è il fondatore del cognitivismo?
+2,21,Il modello di elaborazione dell'informazione paragona la mente a?
+3,21,Cosa è il pensiero critico?
+1,22,Cosa studia la 'segregazione urbana'?
+2,22,La 'Scuola di Chicago' è famosa per i suoi studi su?
+1,23,Quale invenzione di Gutenberg rivoluzionò la diffusione del sapere rinascimentale?
+2,23,Quale famiglia fiorentina fu la principale mecenate del Rinascimento?
+1,24,Quale romanzo di Virginia Woolf è scritto in tecnica del 'flusso di coscienza'?
+2,24,In quale anno fu pubblicato 'Ulisse' di James Joyce?
+1,25,Cosa studia la matematica discreta?
+2,25,Quante permutazioni esistono di n elementi distinti?
+3,25,Cosa afferma il Teorema dei Quattro Colori?
+1,26,Cosa è un indirizzo MAC?
+2,26,Cosa è il DNS?
+3,26,Su quale livello del modello OSI opera il protocollo TCP?
+4,26,Qual è la differenza tra TCP e UDP?
+1,27,Cosa è una tabella hash?
+2,27,Quale struttura dati usa il principio FIFO?
+3,27,Cosa calcola l'algoritmo di Dijkstra?
+1,28,Cosa è il 'content marketing'?
+2,28,Cosa è il 'funnel di vendita'?
+3,28,Cosa si intende per 'retargeting'?
+4,28,Cosa significa SEO?
+1,29,Cosa è la catena del valore di Porter?
+2,29,Cosa è il business plan?
+3,29,Cosa analizza la SWOT analysis?
+4,29,Cosa si intende per 'outsourcing'?
+1,30,Quale movimento artistico nasce come reazione all'Impressionismo e include Cézanne e Van Gogh?
+2,30,Chi è il fondatore del Cubismo insieme a Braque?
+3,30,Quale artista è noto per i suoi orologi molli nel 'quadro La persistenza della memoria'?
+4,30,Chi è il fondatore della Pop Art americana?
+1,31,Cosa è l'entanglement quantistico?
+2,31,Chi propose il modello atomico a strati con livelli energetici quantizzati?
+1,32,Cosa è un legame ionico?
+2,32,Qual è il simbolo chimico dell'oro?
+3,32,Quale metallo è liquido a temperatura ambiente?
+1,33,Come si chiama il processo per cui alcune piante marine producono ossigeno?
+2,33,A quale profondità vive la fauna abissale?
+3,33,Quale è il mammifero più grande degli oceani?
+4,33,Quale pesce è noto per poter cambiare sesso nel corso della vita?
+1,34,Cosa è la lava?
+2,34,Quale vulcano è il più alto d'Europa?
+3,34,Come si misura la magnitudo di un terremoto?
+4,34,Cosa è il punto epicentro di un terremoto?
+1,35,Cosa è un ciclone?
+2,35,Cosa è l'effetto Coriolis?
+1,36,Cosa è un morfema?
+2,36,Quale dialetto italiano ha influenzato maggiormente la lingua standard?
+3,36,Quanti fonemi consonantici ha l'italiano standard?
+4,36,Come si chiama il fenomeno per cui una parola acquisisce un significato diverso nel tempo?
+1,37,Cosa è la crittografia RSA?
+2,37,Cosa è la funzione hash in crittografia?
+3,37,Qual è la base del sistema binario?
+4,37,Cosa è un numero primo?
+1,38,Chi era il dio romano della guerra?
+2,38,Qual è il nome del fiume degli inferi nella mitologia greca?
+1,39,Quale imperatore fu incoronato da Papa Leone III nell'800 d.C.?
+2,39,Cosa è la Peste Nera?
+1,40,Quale città è la capitale della Cina?
+2,40,Cosa è il Diwali?
+3,40,Quale paese asiatico è noto per la produzione di Kimono?
+1,41,Quale romanzo di Tolstoj è ambientato durante le guerre napoleoniche?
+1,42,Cosa è la globalizzazione economica?
+2,42,Cosa misurano i BRICS?
+1,43,Come si chiama il processo per cui gli animali trascorrono l'inverno in uno stato di torpore?
+2,43,A quale ordine appartengono i pipistrelli?
+1,44,Come si chiama la cellula riproduttiva delle piante?
+2,44,Cosa è la simbiosi tra funghi e radici delle piante?
+3,44,Cosa sono le gimnosperme?
+1,45,Cosa è il metabolismo di primo passaggio epatico?
+2,45,Cosa sono i farmaci generici?
+3,45,Cosa è un agonista farmacologico?
+1,46,Cosa è la sovranità statale?
+2,46,Quale documento internazionale del 1948 sancisce i diritti fondamentali dell'uomo?
+3,46,Cosa è la Convenzione di Ginevra?
+4,46,Cosa è il principio di non ingerenza nel diritto internazionale?
+5,46,Cosa è la Corte Penale Internazionale (CPI)?
+1,47,Chi inventò la macchina a vapore moderna nel XVIII secolo?
+2,47,Quando fu inventato il World Wide Web?
+1,48,Cosa è la cinematica inversa in robotica?
+2,48,Cosa è un robot collaborativo (cobot)?
+3,48,Cosa è un robot industriale?
+1,49,Cosa è un modello di linguaggio di grandi dimensioni (LLM)?
+2,49,Cosa è l'apprendimento automatico (machine learning)?
+1,50,Cosa è la cross-validation?
+2,50,Cosa è il gradient descent?
+1,51,Cosa è l'analisi della varianza (ANOVA)?
+2,51,Cosa è la correlazione di Pearson?
+3,51,Cosa è la media aritmetica?
+4,51,Cosa è l'intervallo di confidenza al 95%?
+1,52,Quale metodo numerico approssima un integrale dividendo l'intervallo in trapezi?
+2,52,Come si calcola l'integrale di x^n (con n ≠ -1)?
+3,52,Cosa è la lunghezza d'arco di una curva?
+1,53,"In topologia, cosa si intende per 'spazio compatto'?"
+2,53,Di cosa si occupa la topologia matematica?
+3,53,Cosa è un omeomorfismo in topologia?
+1,54,Cosa è un gioco a somma zero?
+2,54,Chi è il fondatore della teoria dei giochi moderna?
+3,54,Cosa è l'equilibrio di Nash?
+1,55,Cosa afferma il cogito cartesiano?
+2,55,Chi scrisse 'Così parlò Zarathustra'?
+3,55,Cosa è l'ermeneutica filosofica?
+1,56,Cosa è lo scetticismo epistemologico?
+1,57,Cosa è l'utilitarismo?
+2,57,Cosa è il relativismo morale?
+3,57,Cosa è l'etica della virtù?
+1,58,Cosa è il panteismo?
+2,58,Quale testo è sacro per l'Ebraismo?
+3,58,Quante sono le religioni abramitiche principali?
+1,59,Quale strumento usa l'archeologia per datare reperti organici?
+2,59,Quale città antica fu sepolta dall'eruzione del Vesuvio nel 79 d.C.?
+3,59,Dove si trova la celebre statua greca del Discobolo?
+4,59,Cosa è un'anfora nell'antichità classica?
+1,60,Cosa è una moneta 'ex-voto'?
+2,60,Cosa è la numismatica?
+3,60,Cosa è la zecca?
+4,60,Come si chiama la tecnica di falsificazione che aggiunge cifre al valore nominale?
+1,61,Quale testo italiano del XIII secolo rappresenta la prima grande opera in volgare?
+2,61,Quale è il più antico testo in lingua d'oïl francese?
+3,61,Cosa è lo 'Stilnovo'?
+1,62,In quale data convenzionale si colloca la fondazione di Roma?
+2,62,Quale imperatore romano costruì il famoso muro in Britannia?
+3,62,Chi era Giulio Cesare?
+4,62,Quando cadde l'Impero Romano d'Occidente?
+1,63,Cosa è la 'Strafexpedition' del 1916?
+2,63,Cosa è la guerra di trincea?
+3,63,In quale anno scoppiò la Prima Guerra Mondiale?
+1,64,In quale data avvenne lo sbarco in Normandia (D-Day)?
+2,64,Cosa è la Resistenza italiana?
+3,64,Quali erano le potenze dell'Asse?
+1,65,Cosa è la geopolitica?
+2,65,Cosa è la diplomazia della 'gunboat policy'?
+3,65,Cosa è la NATO?
+1,66,Cosa è il liberalismo istituzionale nelle RI?
+2,66,Cosa è la sovranità statale in ambito internazionale?
+3,66,Cosa è la globalizzazione nelle RI?
+4,66,Cosa è la deterrenza nucleare?
+1,67,Quale imperatore cinese unificò la Cina e costruì la Grande Muraglia?
+2,67,Quale guerra del XX secolo si combatté tra Nord e Sud Corea?
+3,67,Chi fu il fondatore dell'Impero Mongolo?
+4,67,Cosa è il periodo Meiji in Giappone?
+1,68,Cosa è il 'griot' nelle culture dell'Africa occidentale?
+2,68,Quale civiltà africana antica costruì le piramidi di Giza?
+1,69,Cosa è lo 'scat singing'?
+2,69,Cosa è l'improvvisazione nel jazz?
+3,69,Cosa è il 'blues'?
+1,70,Chi è il compositore de 'La Traviata' e 'Rigoletto'?
+2,70,Cosa è l'aria nell'opera lirica?
+3,70,Cosa è il bel canto nell'opera italiana?
+1,71,Cosa è il 'punk rock'?
+2,71,Quale evento del 1969 è simbolo della controcultura hippie e del rock?
+1,72,Chi è Berthe Morisot?
+2,72,Quale tecnica pittorica caratterizza l'Impressionismo?
+1,73,Cosa è il contrapposto nella scultura classica?
+2,73,Cosa è un bassorilievo?
+3,73,Quale scultura greca è considerata il simbolo della bellezza ideale maschile?
+1,74,Cosa è il curtain wall nell'architettura moderna?
+2,74,Chi progettò la Casa sulla Cascata (Fallingwater)?
+3,74,Quale principio caratterizza l'architettura di Le Corbusier?
+4,74,Cosa è il Bauhaus?
+5,74,Chi progettò il Guggenheim Museum di Bilbao?
+1,75,Cosa è l'ergonomia nel design industriale?
+2,75,Chi è Raymond Loewy?
+3,75,Chi è Dieter Rams?
+1,76,"Chi inventò il dagherrotipo, il primo processo fotografico pratico?"
+2,76,Cosa è il diaframma in una fotocamera?
+1,77,Quale paese è noto per il 'cinema d'autore' europeo degli anni '60?
+2,77,Chi sono i fratelli Lumière?
+1,78,Quale scrittore messicano è noto per il romanzo 'Pedro Páramo'?
+2,78,Chi è Jorge Luis Borges?
+3,78,Chi scrisse 'Cent'anni di solitudine'?
+1,79,Cosa è il surrealismo in poesia?
+2,79,Quale poeta italiano è il maggior esponente dell'ermetismo?
+1,80,Cosa è il 'postmodernismo' in letteratura?
+2,80,Cosa è la 'metafiction'?
+3,80,Chi scrisse 'La ricerca del tempo perduto'?
+4,80,Chi scrisse 'Ulisse'?
+1,81,Chi è Donna Tartt?
+2,81,Chi ha scritto 'Il nome della rosa'?
+1,82,Chi ha creato 'Watchmen'?
+2,82,Chi è Chris Ware?
+1,83,Chi è Gipi?
+2,83,Chi ha creato Diabolik?
+3,83,Chi ha creato Corto Maltese?
+1,84,Chi è Mario nella cultura pop dei videogiochi?
+2,84,Quale genere di gioco è caratterizzato dall'esplorazione e dall'accumulo di risorse?
+3,84,Quale videogioco ha venduto più copie nella storia?
+1,85,Cosa è la fermentazione nella cucina internazionale?
+2,85,Quale paese è considerato la culla della cucina gastronomica occidentale?
+3,85,Cosa è il 'sous vide'?
+4,85,Cosa è il 'umami'?
+1,86,In quale regione italiana si produce il Barolo?
+2,86,Quale vitigno è usato per produrre il Brunello di Montalcino?
+1,87,Cosa è il Prosecco?
+2,87,Quale vino rosso toscano è considerato il più pregiato d'Italia?
+3,87,Quale metodo di produzione usa il Franciacorta?
+4,87,Da quale vitigno si produce il Barolo?
+1,88,Cosa è il caffè 'specialty'?
+2,88,Cosa è la 'crema' nel caffè espresso?
+3,88,Cosa differenzia un cappuccino da un latte macchiato?
+1,89,Cosa è la 'verticalità' in una degustazione di vini?
+2,89,Cosa è il decantatore?
+3,89,Cosa analizza la 'degustazione visiva' di un vino?
+4,89,Cosa sono i 'bouquet' nel vino?
+5,89,A quale temperatura si serve generalmente un vino rosso strutturato?
+1,90,Cosa è il 'mogul' nello sci freestyle?
+2,90,In quale anno lo sci alpino fu introdotto ai Giochi Olimpici Invernali?
+1,91,Chi è Ellen MacArthur?
+2,91,Cosa è la vela in ambito sportivo?
+3,91,Cosa è il triathlon olimpico?
+1,92,Chi è Eliud Kipchoge?
+2,92,Cosa è la maratona?
+1,93,In quale anno si svolse il primo Campionato del Mondo di calcio?
+2,93,Chi è considerato il più grande calciatore di tutti i tempi da molti esperti?
+3,93,In quale anno l'Italia vinse il suo quarto Campionato del Mondo?
+1,94,Cosa è il 'tiro libero' nel basket?
+2,94,Cosa è il 'doppio passo' nel basket?
+3,94,Chi è Michael Jordan?
+1,95,Su quale superficie si gioca Wimbledon?
+2,95,Quante partite ha una competizione a 5 set in un Grande Slam maschile?
+3,95,Quale tennista è soprannominato 'Re della Terra'?
+4,95,Cosa è un 'ace' nel tennis?
+1,96,Quale pilota ha vinto più campionati del mondo di Formula 1?
+2,96,Quale circuito ospita il Gran Premio di Monaco?
+3,96,Chi è Ayrton Senna?
+1,97,In quale circuito italiano si disputa il Gran Premio d'Italia di Moto GP?
+2,97,Da quanti poli è composta la griglia di partenza di un GP di Moto GP?
+3,97,Cosa è il 'long lap penalty' in Moto GP?
+1,98,Quante tappe conta tipicamente il Tour de France?
+2,98,Chi ha vinto più Tour de France nella storia?
+1,99,Quante caselle ha la scacchiera?
+2,99,Cosa è la FIDE?
+3,99,Cosa è lo scacco matto?
+4,99,Chi è Magnus Carlsen?
+1,100,Cosa è la 'briscola' nel gioco italiano?
+2,100,Cosa è il 'tressette' nel gioco italiano?
+3,100,Quante carte ha un mazzo standard?
+4,100,Cosa è il 'bridge' come gioco di carte?
+1,101,Cosa è il 'bluff' nel poker?
+2,101,Cosa è l''all-in' nel poker?
+3,101,Cosa è il 'Texas Hold'em'?
+4,101,Cosa è la 'posizione' nel poker?
+1,102,Cosa è la 'punta' nella danza classica?
+2,102,Cosa è la 'prima ballerina assoluta'?
+3,102,Chi è Isadora Duncan?
+4,102,Cosa è l'arabesque nella danza classica?
+5,102,Quale balletto di Tchaikovsky racconta la storia di una principessa trasformata in cigno?
+1,103,Quale drammaturgo norvegese scrisse 'Casa di bambola'?
+2,103,Cosa è il 'quarto muro' nel teatro?
+1,104,Cosa è il 'nouveau cirque'?
+2,104,Cosa è la 'commedia fisica' nelle arti performative?
+3,104,Cosa è il giocolaggio?
+4,104,Cosa è l'acrobatica aerea?
+1,105,Chi guidò la spedizione dei Diecimila descritta nella Anabasi?
+2,105,Quale città-stato greca era nota per il suo sistema militare e l'addestramento spartano?
+3,105,Quale sistema politico fu inventato ad Atene nel V secolo a.C.?
+4,105,Quale monumento è considerato il simbolo dell'Acropoli di Atene?
+1,106,Quale gruppo funzionale caratterizza un alcol?
+2,106,Cosa sono gli isomeri?
+3,106,Qual è il monomero del polietilene?
+1,107,Qual è l'unità di misura della forza nel SI?
+2,107,La resistenza dell'aria è un esempio di forza?
+3,107,Cosa misura la quantità di moto?
+4,107,La legge di gravitazione universale di Newton lega la forza a?
+1,108,Quale romanzo di Alberto Moravia analizza la borghesia romana?
+2,108,Chi è l'autore di '1984'?
+1,109,"Nella capitalizzazione composta, gli interessi maturati vengono?"
+2,109,Cosa misura la duration di un'obbligazione?
+3,109,Il TIR (Tasso Interno di Rendimento) è il tasso che rende il VAN pari a?
+4,109,Cosa si intende per 'ammortamento' di un debito?
+1,110,Cosa sono i ribosomi?
+2,110,Quale processo permette alle cellule di duplicarsi?
+1,111,La catena montuosa delle Alpi separa principalmente quali paesi?
+2,111,Quale isola europea è la più grande del Mediterraneo?
+3,111,Quale paese non fa parte dell'Unione Europea?
+1,112,Cosa è una nebulosa?
+2,112,Cosa sono le stelle di neutroni?
+3,112,Quante galassie si stima contenga l'universo osservabile?
+4,112,Quale pianeta è noto per i suoi anelli?
+1,113,Come si dice 'acqua' in spagnolo?
+2,113,Quale documento italiano è considerato la prima attestazione scritta in volgare?
+3,113,Quale trasformazione fonetica distingue l'italiano dal latino?
+1,114,Cosa sono i codici miniati medievali?
+2,114,Quale tecnica pittorica era la più comune nell'arte medievale?
+1,115,Chi diresse 'Ladri di biciclette'?
+2,115,Quale film di Andrei Tarkovsky è ambientato in una zona mistica?
+3,115,A quale movimento cinematografico appartiene la Nouvelle Vague?
+4,115,Quale film di Ingmar Bergman è ambientato in una lunga notte estiva svedese?
+1,116,Qual è il dolce tipico della Campania consumato a Natale?
+2,116,In quale regione italiana si produce il Parmigiano Reggiano DOP?
+3,116,Da cosa è fatto il prosciutto di Parma DOP?
+4,116,Quale pesce è protagonista della 'brodetto' marchigiana?
+1,117,Quale linguaggio di markup viene usato per creare pagine web?
+1,118,Cosa sono i diritti inviolabili dell'uomo sanciti dalla Costituzione?
+2,118,In quanti articoli è composta la Costituzione italiana?
+3,118,Quale principio fondamentale sancisce l'articolo 1 della Costituzione italiana?
+4,118,Come viene eletto il Presidente della Repubblica in Italia?
+5,118,Cos'è il bicameralismo perfetto vigente in Italia?
+1,119,Cos'è il cash flow operativo?
+1,120,Chi compose 'Le quattro stagioni'?
+2,120,Chi è l'autore del 'Clavicembalo ben temperato'?
+3,120,Chi compose la Quinta Sinfonia in Do minore?
+4,120,Quale opera di Puccini si svolge in Giappone?
+1,121,Cosa studia l'etica nella filosofia greca?
+2,121,Cosa significa il termine 'catarsi' nella filosofia di Aristotele?
+3,121,Chi fu il maestro di Platone?
+4,121,Cosa sosteneva la scuola atomista di Democrito?
+1,122,Quale struttura connette muscolo e osso?
+2,122,Quante vertebre ha la colonna vertebrale umana?
+3,122,Il cuore umano ha quante camere?
+4,122,Qual è l'osso più lungo del corpo umano?
+5,122,Quale organo produce l'insulina?
+1,123,Cosa si intende con 'specie invasiva'?
+2,123,Quale gas è il principale responsabile dell'effetto serra antropogenico?
+1,124,Quante discipline sportive erano presenti alle Olimpiadi di Parigi 2024?
+2,124,Chi detiene il record mondiale nei 100 metri piani maschili?
+3,124,In quale città si sono svolte le Olimpiadi estive del 2020 (posticipate al 2021)?
+1,125,Il modello di elaborazione dell'informazione paragona la mente a?
+2,125,Cosa è la memoria di lavoro?
+1,126,La 'Scuola di Chicago' è famosa per i suoi studi su?
+2,126,Cosa studia la 'segregazione urbana'?
+3,126,Cosa descrive il concetto di 'gentrificazione'?
+1,127,Cosa caratterizza l'Umanesimo rinascimentale?
+2,127,In quale città italiana nacque il Rinascimento nel XIV-XV secolo?
+3,127,Chi dipinse 'La Primavera' e 'La nascita di Venere'?
+1,128,In quale anno fu pubblicato 'Ulisse' di James Joyce?
+2,128,A quale epoca appartiene William Shakespeare?
+3,128,Chi scrisse 'Orgoglio e pregiudizio'?
+1,129,Quante permutazioni esistono di n elementi distinti?
+2,129,Cosa è un grafo in matematica discreta?
+3,129,Cosa è la complessità computazionale O(n log n)?
+4,129,Cosa afferma il Teorema dei Quattro Colori?
+1,130,Cosa fa il protocollo DHCP?
+2,130,Qual è la differenza tra TCP e UDP?
+1,131,Qual è la complessità temporale della ricerca binaria nel caso peggiore?
+2,131,Cosa calcola l'algoritmo di Dijkstra?
+3,131,Quale algoritmo di ordinamento ha complessità O(n log n) nel caso medio?
+4,131,Cosa è una tabella hash?
+5,131,Cosa è un albero binario di ricerca (BST)?
+1,132,Cosa è un KPI nel marketing digitale?
+2,132,Cosa è il 'content marketing'?
+3,132,Cosa significa SEO?
+1,133,Cosa è il lean management?
+2,133,Cosa è il management per obiettivi (MBO)?
+3,133,Cosa è il business plan?
+4,133,Cosa analizza la SWOT analysis?
+1,134,"Quale movimento artistico italiano glorificava la velocità, la macchina e la guerra?"
+2,134,Chi è il fondatore della Pop Art americana?
+3,134,A quale movimento appartiene Mondrian con i suoi quadri di linee nere e colori primari?
+4,134,Cosa è l'Arte Astratta?
+5,134,Quale movimento artistico nasce come reazione all'Impressionismo e include Cézanne e Van Gogh?
+1,135,Cosa è l'entanglement quantistico?
+2,135,Chi formulò il principio di indeterminazione?
+3,135,Cosa è la sovrapposizione quantistica?
+4,135,Cosa è la costante di Planck?
+1,136,Quale metallo è liquido a temperatura ambiente?
+2,136,Cosa è un legame ionico?
+3,136,Qual è il simbolo chimico dell'oro?
+1,137,Cosa è la barriera corallina?
+2,137,Come si chiama il processo per cui alcune piante marine producono ossigeno?
+3,137,Cos'è il plancton?
+1,138,Come si chiamano le rocce formatesi da depositi di sedimenti compattati?
+2,138,Quale tipo di roccia si forma dal raffreddamento del magma?
+3,138,Cosa è la lava?
+1,139,Quale tipo di nube è associata ai temporali?
+2,139,Come si chiama il vento caldo e secco che soffia dal Sahara verso il Mediterraneo?
+3,139,Cosa è il jet stream?
+1,140,Quale dialetto italiano ha influenzato maggiormente la lingua standard?
+2,140,Cosa è la sintassi?
+3,140,Cosa è un morfema?
+1,141,Cosa è la crittografia RSA?
+2,141,Qual è la base del sistema binario?
+3,141,Cosa è la funzione hash in crittografia?
+4,141,Cosa è la crittografia simmetrica?
+1,142,Chi era il dio romano della guerra?
+2,142,Chi era Ulisse (Odisseo) nella mitologia greca?
+1,143,Chi guidò la Prima Crociata?
+2,143,Quando convenzionalmente inizia il Medioevo?
+3,143,Cosa è la Magna Carta?
+4,143,Quale imperatore fu incoronato da Papa Leone III nell'800 d.C.?
+1,144,Quale paese asiatico è noto per la produzione di Kimono?
+2,144,Chi è il fondatore del Buddhismo?
+3,144,Quale città è la capitale della Cina?
+1,145,Quale premio Nobel per la Letteratura fu assegnato a Boris Pasternak (e da lui rifiutato)?
+1,146,Cosa è il PIL (Prodotto Interno Lordo)?
+2,146,Cosa è l'economia di scala?
+3,146,Quale organizzazione internazionale supervisiona il commercio mondiale?
+4,146,Cosa è la globalizzazione economica?
+1,147,Quale animale è il più grande vivente sulla Terra?
+2,147,Cosa è la mimetizzazione negli animali?
+3,147,A quale ordine appartengono i pipistrelli?
+1,148,Qual è la funzione principale della clorofilla nelle piante?
+2,148,Cosa sono le gimnosperme?
+1,149,Cosa è un agonista farmacologico?
+2,149,Cosa è un effetto collaterale di un farmaco?
+3,149,Cosa è il metabolismo di primo passaggio epatico?
+4,149,Cosa è la farmacocinetica?
+1,150,Cosa è la Convenzione di Ginevra?
+2,150,Cosa è la sovranità statale?
+3,150,Cosa è il diritto consuetudinario internazionale?
+4,150,Cosa è la Corte Penale Internazionale (CPI)?
+1,151,Chi inventò il telefono nel 1876?
+2,151,Chi è considerato il padre dell'informatica moderna?
+3,151,Chi inventò la macchina a vapore moderna nel XVIII secolo?
+1,152,Chi coniò il termine 'robot' nel 1920?
+2,152,Quali sono le Tre Leggi della Robotica di Asimov?
+3,152,Cosa è un robot collaborativo (cobot)?
+4,152,Cosa è l'attuatore in un robot?
+5,152,Cosa è un robot industriale?
+1,153,Cosa è il deep learning?
+2,153,Cosa è il reinforcement learning?
+3,153,Cosa è l'apprendimento automatico (machine learning)?
+4,153,Cosa è una rete neurale artificiale?
+1,154,Cosa è un albero decisionale?
+2,154,Cosa è la classificazione nel machine learning?
+3,154,Cosa è il gradient descent?
+1,155,Cosa è la correlazione di Pearson?
+2,155,Cosa è l'analisi della varianza (ANOVA)?
+1,156,Cosa afferma il Teorema Fondamentale del Calcolo?
+2,156,Quale metodo numerico approssima un integrale dividendo l'intervallo in trapezi?
+1,157,Cosa è uno spazio metrico?
+2,157,Cosa studia la teoria dei nodi in topologia?
+3,157,Cosa è un omeomorfismo in topologia?
+1,158,Cosa è l'equilibrio di Nash?
+2,158,Cosa è un gioco a somma zero?
+3,158,Cosa è la strategia dominante in un gioco?
+1,159,Chi scrisse la 'Critica della Ragion Pura'?
+2,159,Cosa è il nichilismo in filosofia?
+1,160,Chi è il filosofo associato al falsificazionismo come criterio di scientificità?
+2,160,Cosa studia l'epistemologia?
+1,161,Cosa è l'imperativo categorico di Kant?
+2,161,Cosa è il relativismo morale?
+3,161,Cosa è l'utilitarismo?
+1,162,Cosa è il panteismo?
+2,162,Cosa è il monoteismo?
+1,163,Quale civiltà costruì la città di Troia?
+2,163,Dove si trova la celebre statua greca del Discobolo?
+3,163,Cosa è lo stile corinzio nell'architettura greca?
+1,164,Cosa è il dritto di una moneta?
+2,164,Cosa è la zecca?
+1,165,Chi è Chrétien de Troyes?
+2,165,Quale testo italiano del XIII secolo rappresenta la prima grande opera in volgare?
+3,165,Cosa studia la filologia romanza?
+1,166,Cosa è il 'cursus honorum' romano?
+1,167,In quale anno scoppiò la Prima Guerra Mondiale?
+2,167,Quale accordo pose fine alla Prima Guerra Mondiale?
+3,167,Cosa è la guerra di trincea?
+4,167,Cosa è la 'Strafexpedition' del 1916?
+1,168,Quale evento portò gli USA a entrare nella Seconda Guerra Mondiale?
+2,168,In quale data avvenne lo sbarco in Normandia (D-Day)?
+3,168,Cosa è la Resistenza italiana?
+4,168,In quale anno iniziò la Seconda Guerra Mondiale?
+1,169,Cosa è il G20?
+2,169,Cosa si intende per 'stato fallito'?
+3,169,Cosa è il concetto di 'soft power'?
+4,169,Cosa è la diplomazia della 'gunboat policy'?
+1,170,Cosa è la deterrenza nucleare?
+2,170,Cosa è la globalizzazione nelle RI?
+3,170,Cosa è il 'balance of power'?
+1,171,Quale imperatore cinese unificò la Cina e costruì la Grande Muraglia?
+2,171,Quale paese asiatico fu la prima potenza ad industrializzarsi?
+3,171,Chi fu il fondatore dell'Impero Mongolo?
+1,172,Chi fu il primo presidente della Namibia post-indipendenza?
+2,172,Quale lingua africana ha il maggior numero di parlanti nativi?
+3,172,Quale civiltà africana antica costruì le piramidi di Giza?
+4,172,Cosa è il 'griot' nelle culture dell'Africa occidentale?
+1,173,In quale città americana nacque il jazz?
+2,173,Cosa è lo 'scat singing'?
+1,174,Cosa è l'aria nell'opera lirica?
+2,174,Chi compose il 'Barbiere di Siviglia'?
+1,175,In quale anno i Beatles si sciolsero?
+2,175,Chi è Jimi Hendrix?
+1,176,"Chi dipinse 'Impressione, levar del sole' che diede nome al movimento?"
+2,176,In quale paese nacque l'Impressionismo?
+1,177,Cosa è un bassorilievo?
+2,177,Quale scultura greca è considerata il simbolo della bellezza ideale maschile?
+3,177,Cosa è la policromia nella scultura antica?
+4,177,Quale stile scultoreo romano è caratterizzato da ritratti realistici dei defunti?
+1,178,Cosa è il curtain wall nell'architettura moderna?
+2,178,Quale principio caratterizza l'architettura di Le Corbusier?
+3,178,Cosa è il Bauhaus?
+4,178,Cosa è il Movimento Moderno in architettura?
+5,178,Chi progettò la Casa sulla Cascata (Fallingwater)?
+1,179,Cosa è il prototipo nel processo di design industriale?
+2,179,Cosa è il design 'form follows function'?
+3,179,Chi è Dieter Rams?
+1,180,Cosa è la fotografia in bianco e nero a colori?
+2,180,Cosa è la regola dei terzi nella composizione fotografica?
+3,180,Cosa è l'ISO nella fotografia digitale?
+1,181,Chi diresse 'Quarto potere' (Citizen Kane)?
+2,181,Cosa è il cinema verité?
+3,181,Cosa è il montaggio nel cinema?
+1,182,Quale scrittore messicano è noto per il romanzo 'Pedro Páramo'?
+2,182,Chi è Jorge Luis Borges?
+3,182,Cosa è il 'Boom latinoamericano'?
+4,182,Chi scrisse 'Cent'anni di solitudine'?
+1,183,Chi scrisse 'L'Allegria' (ex 'Il Porto Sepolto')?
+2,183,Cosa è la 'Beat Generation' in poesia?
+3,183,Cosa è la poesia concreta?
+1,184,Cosa è la 'metafiction'?
+2,184,Chi scrisse 'La ricerca del tempo perduto'?
+3,184,Cosa è il 'postmodernismo' in letteratura?
+1,185,Chi ha scritto 'Il nome della rosa'?
+1,186,Cosa è il fumetto 'underground' (comix)?
+1,187,Chi ha creato Corto Maltese?
+1,188,Cosa è un 'achievement' (trofeo) in un videogioco?
+2,188,Quale genere di gioco è caratterizzato dall'esplorazione e dall'accumulo di risorse?
+3,188,Quale titolo è considerato il primo videogioco commerciale della storia?
+1,189,Quale paese è considerato la culla della cucina gastronomica occidentale?
+2,189,Cosa è la fermentazione nella cucina internazionale?
+3,189,Quale spezia è la più costosa al mondo?
+1,190,Cosa è un vino 'tannico'?
+2,190,Cosa è la 'denominazione di origine controllata e garantita' (DOCG)?
+3,190,Quale vitigno è usato per produrre il Brunello di Montalcino?
+4,190,Cosa è il millesimo di un vino?
+1,191,Quale vino rosso toscano è considerato il più pregiato d'Italia?
+2,191,Cosa è il Primitivo di Manduria?
+3,191,Da quale vitigno si produce il Barolo?
+4,191,Cosa è il Prosecco?
+1,192,Cosa differenzia un cappuccino da un latte macchiato?
+2,192,Cosa è il caffè 'specialty'?
+3,192,Qual è la temperatura ideale dell'acqua per estrarre un espresso?
+1,193,Cosa è il decantatore?
+2,193,A quale temperatura si serve generalmente un vino rosso strutturato?
+3,193,Cosa sono i 'bouquet' nel vino?
+1,194,Cosa è il curling?
+2,194,Cosa è la discesa libera nello sci alpino?
+3,194,Chi è Lindsey Vonn?
+4,194,In quale anno lo sci alpino fu introdotto ai Giochi Olimpici Invernali?
+1,195,Cosa è il triathlon olimpico?
+2,195,Cosa è la Coppa America nella vela?
+1,196,Chi detiene il record mondiale nei 100 metri maschili?
+2,196,Come si misura il lancio del giavellotto?
+3,196,Cosa è il decathlon?
+1,197,Quale squadra di club ha vinto più UEFA Champions League?
+2,197,Chi è considerato il più grande calciatore di tutti i tempi da molti esperti?
+3,197,In quale anno l'Italia vinse il suo quarto Campionato del Mondo?
+1,198,Quanti secondi ha una squadra per tirare nel basket NBA?
+2,198,Quanti punti vale un canestro da oltre l'arco dei tre punti?
+3,198,Cosa è il 'doppio passo' nel basket?
+4,198,Chi è Michael Jordan?
+1,199,Cosa è il 'tie-break' nel tennis?
+2,199,Chi è la tennista con più titoli del Grande Slam nella storia femminile?
+3,199,Quale tennista è soprannominato 'Re della Terra'?
+4,199,Cosa è un 'ace' nel tennis?
+1,200,Cosa è la DRS in Formula 1?
+2,200,Dove si svolge il Gran Premio d'Italia di Formula 1?
+3,200,Quale circuito ospita il Gran Premio di Monaco?
+4,200,Chi è Ayrton Senna?
+1,201,Da quanti poli è composta la griglia di partenza di un GP di Moto GP?
+2,201,Cosa è il 'long lap penalty' in Moto GP?
+1,202,Cosa è la Granfondo nel ciclismo?
+2,202,Cosa rappresenta la 'maglia gialla' al Tour de France?
+3,202,Chi ha vinto più Tour de France nella storia?
+4,202,Cosa è lo 'strappo' nel ciclismo?
+1,203,Cosa è la FIDE?
+2,203,Cosa è lo scacco matto?
+3,203,Cosa è l'Arrocco negli scacchi?
+1,204,Cosa è il 'tressette' nel gioco italiano?
+2,204,Cosa è la 'scala reale' nel poker?
+3,204,Quante carte ha un mazzo standard?
+4,204,Cosa è il 'bridge' come gioco di carte?
+1,205,Cosa è la 'pot odds' nel poker?
+2,205,Cosa è il 'Texas Hold'em'?
+3,205,Cosa è il 'bluff' nel poker?
+1,206,Cosa è la 'punta' nella danza classica?
+2,206,Chi è Rudolf Nureyev?
+3,206,Quale balletto di Tchaikovsky racconta la storia di una principessa trasformata in cigno?
+1,207,Quale drammaturgo norvegese scrisse 'Casa di bambola'?
+2,207,Cosa è il 'quarto muro' nel teatro?
+1,208,Chi è Philippe Petit?
+2,208,Cosa è il 'nouveau cirque'?
+1,209,Chi guidò la spedizione dei Diecimila descritta nella Anabasi?
+2,209,Quale battaglia del 490 a.C. vide i Greci sconfiggere i Persiani?
+3,209,Quale città-stato greca era nota per il suo sistema militare e l'addestramento spartano?
+1,210,Cosa sono gli isomeri?
+2,210,Quale gruppo funzionale caratterizza un alcol?
+3,210,Qual è la formula molecolare del metano?
+1,211,Quale legge afferma che F = ma?
+2,211,Cosa misura la quantità di moto?
+3,211,Un corpo in moto rettilineo uniforme ha accelerazione pari a?
+1,212,Chi scrisse 'La coscienza di Zeno'?
+2,212,Chi vinse il Premio Nobel per la Letteratura nel 1997?
+1,213,Cosa calcola il tasso di interesse semplice?
+2,213,Cosa si intende per 'ammortamento' di un debito?
+3,213,Cosa misura la duration di un'obbligazione?
+1,214,Cosa contiene il nucleo cellulare?
+2,214,Quale organello cellulare è responsabile della produzione di energia (ATP)?
+3,214,La membrana plasmatica è composta principalmente da?
+1,215,Quale paese europeo ha la superficie maggiore?
+2,215,Qual è la capitale della Polonia?
+1,216,Quante galassie si stima contenga l'universo osservabile?
+2,216,Cosa è una nebulosa?
+3,216,Quale teoria descrive l'origine dell'universo?
+4,216,Quale pianeta del sistema solare è il più grande?
+5,216,Quale pianeta è noto per i suoi anelli?
+1,217,Il romeno appartiene alle lingue neolatine?
+2,217,Quale documento italiano è considerato la prima attestazione scritta in volgare?
+3,217,Quali lingue derivano dal Latino volgare?
+1,218,Quale tecnica artistica era comune nell'arte bizantina?
+2,218,La Cattedrale di Notre-Dame di Parigi è un esempio di quale stile?
+3,218,Quale tecnica pittorica era la più comune nell'arte medievale?
+1,219,Chi diresse 'Ladri di biciclette'?
+2,219,Chi diresse 'La dolce vita' del 1960?
+3,219,A quale movimento cinematografico appartiene la Nouvelle Vague?
+1,220,Quale pesce è protagonista della 'brodetto' marchigiana?
+2,220,La 'bagna cauda' è un piatto tipico di quale regione?
+1,221,Quale sistema operativo è sviluppato da Apple per i Mac?
+2,221,Cosa significa CPU?
+3,221,Quale linguaggio di markup viene usato per creare pagine web?
+1,222,Cos'è il bicameralismo perfetto vigente in Italia?
+2,222,Il diritto di voto in Italia spetta ai cittadini che abbiano compiuto?
+1,223,Quale tipo di costo non varia al variare della produzione?
+2,223,La leva finanziaria misura?
+3,223,Cosa misura il ROE (Return on Equity)?
+1,224,Quale opera di Puccini si svolge in Giappone?
+2,224,Chi compose 'Le quattro stagioni'?
+3,224,Cosa è il bel canto?
+4,224,Quale compositore romantico è noto per i suoi notturni per pianoforte?
+5,224,Chi è l'autore del 'Clavicembalo ben temperato'?
+1,225,Chi è il fondatore del pensiero filosofico occidentale spesso indicato come il primo filosofo?
+2,225,Cosa significa il termine 'catarsi' nella filosofia di Aristotele?
+3,225,Quale concetto filosofico di Platone descrive il mondo delle idee perfette?
+4,225,Quale filosofo affermò che 'panta rei' (tutto scorre)?
+1,226,Qual è l'osso più lungo del corpo umano?
+2,226,Quale organo produce l'insulina?
+3,226,Quante vertebre ha la colonna vertebrale umana?
+4,226,Il cuore umano ha quante camere?
+1,227,Cosa si intende per biodiversità?
+2,227,Cosa misura l'impronta ecologica?
+3,227,Quale accordo internazionale mira a ridurre le emissioni di gas serra?
+1,228,Quale sport prevede la gara di 'sincronizzato' in piscina?
+2,228,Cosa sono i Giochi Paralimpici?
+1,229,Cosa è il pensiero critico?
+2,229,Cosa si intende per 'bias cognitivo'?
+3,229,Il modello di elaborazione dell'informazione paragona la mente a?
+1,230,Cosa sono le 'megalopoli'?
+2,230,Cosa misura l'Indice di Gini nel contesto urbano?
+1,231,Chi affrescò la Cappella Sistina?
+2,231,Quale famiglia fiorentina fu la principale mecenate del Rinascimento?
+1,232,Chi scrisse 'La ballata del vecchio marinaio'?
+2,232,Chi scrisse 'Orgoglio e pregiudizio'?
+1,233,Quale struttura dati implementa il principio LIFO?
+2,233,Cosa è un grafo in matematica discreta?
+3,233,Cosa studia la matematica discreta?
+1,234,Cosa è un router?
+2,234,Cosa è il DNS?
+3,234,Cosa è un indirizzo MAC?
+4,234,Su quale livello del modello OSI opera il protocollo TCP?
+1,235,Cosa è una tabella hash?
+1,236,Cosa significa SEO?
+2,236,Cosa è un KPI nel marketing digitale?
+3,236,Cosa è il social media marketing?
+1,237,Cosa è il management per obiettivi (MBO)?
+2,237,Cosa è il business plan?
+3,237,Cosa si intende per 'outsourcing'?
+1,238,Chi è il fondatore del Cubismo insieme a Braque?
+1,239,Cosa è la sovrapposizione quantistica?
+2,239,Cosa è l'entanglement quantistico?
+3,239,Chi formulò il principio di indeterminazione?
+4,239,Cosa afferma la dualità onda-corpuscolo?
+5,239,Cosa è il gatto di Schrödinger?
+1,240,Cosa è l'elettronegatività di un elemento?
+2,240,Quale metallo è liquido a temperatura ambiente?
+3,240,Quanti elementi sono presenti nella tavola periodica moderna?
+1,241,Quale pesce è noto per poter cambiare sesso nel corso della vita?
+2,241,Cosa sono i cefalopodi?
+3,241,Quale è il mammifero più grande degli oceani?
+1,242,Quale vulcano è il più alto d'Europa?
+2,242,Cosa è il punto epicentro di un terremoto?
+3,242,Cosa è la tettonica delle placche?
+4,242,Cosa è la lava?
+1,243,Come si chiama il vento caldo e secco che soffia dal Sahara verso il Mediterraneo?
+2,243,Cosa è un ciclone?
+3,243,Cosa è l'effetto Coriolis?
+1,244,Cosa è un calco linguistico?
+2,244,Cosa è la sintassi?
+3,244,Cosa è un morfema?
+1,245,Cosa è la crittografia simmetrica?
+2,245,Qual è la base del sistema binario?
+3,245,Cosa è la funzione hash in crittografia?
+1,246,Chi era Ulisse (Odisseo) nella mitologia greca?
+2,246,Chi era il re degli dèi nell'Olimpo greco?
+3,246,Cosa è il tallone d'Achille?
+1,247,Cosa è la Peste Nera?
+2,247,Quando terminò il Medioevo secondo la tradizione storiografica?
+3,247,Quando convenzionalmente inizia il Medioevo?
+1,248,Chi è il fondatore del Buddhismo?
+2,248,Qual è la scrittura tradizionale del Giappone?
+3,248,Quale città è la capitale della Cina?
+4,248,Quale paese asiatico è noto per la produzione di Kimono?
+1,249,Chi scrisse 'Delitto e Castigo'?
+2,249,Quale premio Nobel per la Letteratura fu assegnato a Boris Pasternak (e da lui rifiutato)?
+3,249,Cosa è lo stile del 'realismo critico' nella letteratura russa del XIX secolo?
+4,249,Quale romanzo di Tolstoj è ambientato durante le guerre napoleoniche?
+1,250,Cosa misurano i BRICS?
+2,250,Cosa è il tasso di cambio?
+1,251,Cosa distingue i mammiferi dagli altri vertebrati?
+2,251,A quale ordine appartengono i pipistrelli?
+1,252,Come si chiama la cellula riproduttiva delle piante?
+2,252,Qual è la funzione principale della clorofilla nelle piante?
+1,253,Cosa è un effetto collaterale di un farmaco?
+2,253,Cosa è la biodisponibilità di un farmaco?
+3,253,Cosa è la farmacocinetica?
+1,254,Cosa è la Convenzione di Ginevra?
+2,254,Cosa è la sovranità statale?
+3,254,Cosa è il diritto consuetudinario internazionale?
+4,254,Cosa è la Corte Penale Internazionale (CPI)?
+1,255,Quale invenzione di Gutenberg (1450 circa) rivoluzionò la diffusione del sapere?
+2,255,Quando fu inventato il World Wide Web?
+3,255,Quale tecnologia rese possibile la Rivoluzione Industriale del XVIII-XIX secolo?
+4,255,Chi è considerato il padre dell'informatica moderna?
+5,255,Chi inventò il telefono nel 1876?
+1,256,Cosa è un robot collaborativo (cobot)?
+2,256,Chi coniò il termine 'robot' nel 1920?
+1,257,Cosa è il test di Turing?
+2,257,Cosa è il reinforcement learning?
+3,257,Cosa è l'apprendimento automatico (machine learning)?
+1,258,Cosa è la cross-validation?
+2,258,Cosa è un albero decisionale?
+3,258,Cosa è la classificazione nel machine learning?
+1,259,Cosa è la media aritmetica?
+2,259,Cosa misura la deviazione standard?
+1,260,Come si calcola l'integrale di x^n (con n ≠ -1)?
+2,260,Quale metodo numerico approssima un integrale dividendo l'intervallo in trapezi?
+3,260,Cosa afferma il Teorema Fondamentale del Calcolo?
+4,260,Cosa calcola l'integrale definito di una funzione positiva?
+1,261,Cosa è un omeomorfismo in topologia?
+2,261,Cosa è uno spazio metrico?
+1,262,Cosa è la strategia mista?
+2,262,Cosa è un gioco a somma zero?
+1,263,Chi scrisse la 'Critica della Ragion Pura'?
+2,263,Chi è il fondatore del pragmatismo americano?
+3,263,Chi scrisse 'Così parlò Zarathustra'?
+4,263,Cosa è il nichilismo in filosofia?
+5,263,Cosa è l'idealismo tedesco?
+1,264,Cosa sono i 'paradigmi scientifici' secondo Thomas Kuhn?
+2,264,Cosa è il realismo epistemologico?
+3,264,Cosa è il problema dell'induzione di Hume?
+1,265,Cosa è l'imperativo categorico di Kant?
+2,265,Cosa è il principio di giustizia di Rawls?
+1,266,Quale testo è sacro per l'Ebraismo?
+1,267,Quale civiltà costruì la città di Troia?
+2,267,Quale città antica fu sepolta dall'eruzione del Vesuvio nel 79 d.C.?
+3,267,Cosa è un'anfora nell'antichità classica?
+4,267,Dove si trova la celebre statua greca del Discobolo?
+5,267,Cosa è lo stile corinzio nell'architettura greca?
+1,268,Cosa è una moneta 'ex-voto'?
+2,268,Cosa è il dritto di una moneta?
+3,268,Cosa è la zecca?
+1,269,Quale testo italiano del XIII secolo rappresenta la prima grande opera in volgare?
+2,269,Cosa sono i trovatori nella letteratura medievale?
+3,269,Quale è il più antico testo in lingua d'oïl francese?
+1,270,In quale data convenzionale si colloca la fondazione di Roma?
+2,270,Chi era Giulio Cesare?
+3,270,Quale imperatore romano costruì il famoso muro in Britannia?
+4,270,Quando cadde l'Impero Romano d'Occidente?
+1,271,In quale anno scoppiò la Prima Guerra Mondiale?
+2,271,Cosa è la guerra di trincea?
+3,271,Quale paese entrò in guerra nel 1917 modificando l'equilibrio delle forze?
+1,272,Cosa è l'Olocausto?
+2,272,Cosa è la Resistenza italiana?
+1,273,Cosa si intende per 'stato fallito'?
+2,273,Cosa è il concetto di 'soft power'?
+1,274,Cosa è il 'balance of power'?
+1,275,Quale imperatore cinese unificò la Cina e costruì la Grande Muraglia?
+2,275,Chi fu il fondatore dell'Impero Mongolo?
+3,275,Cosa è la Via della Seta?
+4,275,Quale guerra del XX secolo si combatté tra Nord e Sud Corea?
+1,276,Chi fu il primo presidente della Namibia post-indipendenza?
+1,277,Cosa è il 'blues'?
+2,277,Cosa è l'improvvisazione nel jazz?
+3,277,Quale strumento è più associato a Thelonious Monk?
+4,277,Chi è considerato il padre del jazz moderno (Bebop)?
+5,277,Chi è Miles Davis?
+1,278,Quale voce maschile è la più alta nell'opera lirica?
+2,278,Cosa è il libretto in un'opera lirica?
+3,278,Quale opera di Puccini si svolge nella Parigi bohémienne?
+4,278,Cosa è l'aria nell'opera lirica?
+1,279,Chi è considerato il 'Re del Rock and Roll'?
+2,279,Cosa è il 'grunge'?
+1,280,Dove si tenne la prima mostra impressionista nel 1874?
+2,280,"Chi dipinse 'Impressione, levar del sole' che diede nome al movimento?"
+1,281,Con quale materiale lavoravano principalmente gli scultori greci classici?
+2,281,Cosa è il contrapposto nella scultura classica?
+3,281,Quale stile scultoreo romano è caratterizzato da ritratti realistici dei defunti?
+1,282,Chi progettò il Guggenheim Museum di Bilbao?
+2,282,Cosa è il Bauhaus?
+1,283,Chi è Raymond Loewy?
+2,283,Chi è Dieter Rams?
+3,283,Cosa è il prototipo nel processo di design industriale?
+1,284,Cosa è la fotografia in bianco e nero a colori?
+2,284,Cosa è la regola dei terzi nella composizione fotografica?
+3,284,Chi è Henri Cartier-Bresson?
+1,285,Cosa è il cinema verité?
+2,285,Quale paese è noto per il 'cinema d'autore' europeo degli anni '60?
+3,285,Cosa è il montaggio nel cinema?
+4,285,Chi è Alfred Hitchcock?
+1,286,Chi scrisse 'Cent'anni di solitudine'?
+2,286,Quale scrittore messicano è noto per il romanzo 'Pedro Páramo'?
+3,286,Quale poesia è associata a Pablo Neruda?
+1,287,Chi è Pablo Neruda?
+2,287,Chi scrisse 'Il Prufrock di J. Alfred' e vinse il Nobel nel 1948?
+1,288,Chi è Franz Kafka?
+2,288,Cosa è il 'postmodernismo' in letteratura?
+3,288,Cosa è la 'metafiction'?
+1,289,Chi è Donna Tartt?
+2,289,Cosa è il 'digital novel'?
+3,289,Chi ha scritto 'Se una notte d'inverno un viaggiatore'?
+4,289,Chi è Haruki Murakami?
+1,290,Cosa è 'Persepolis'?
+2,290,Chi è Art Spiegelman?
+1,291,Chi è Zerocalcare?
+2,291,Quale personaggio italiano è protagonista di avventure western?
+3,291,Chi ha creato Corto Maltese?
+4,291,Quale casa editrice italiana pubblica Dylan Dog e Tex?
+5,291,Chi ha creato Diabolik?
+1,292,Quale videogioco ha venduto più copie nella storia?
+2,292,Quale genere di gioco è caratterizzato dall'esplorazione e dall'accumulo di risorse?
+3,292,Quale titolo è considerato il primo videogioco commerciale della storia?
+4,292,Cosa è il 'gaming disorder' secondo l'OMS?
+1,293,Quale paese ha ottenuto più stelle Michelin nel mondo?
+2,293,Cosa è la 'nouvelle cuisine'?
+3,293,Cosa è il 'sous vide'?
+1,294,Cosa è la 'denominazione di origine controllata e garantita' (DOCG)?
+2,294,Come si chiama il processo di trasformazione dello zucchero dell'uva in alcol?
+3,294,Cosa è il millesimo di un vino?
+4,294,Quale vitigno è usato per produrre il Brunello di Montalcino?
+5,294,Cosa è un vino 'tannico'?
+1,295,Cosa è il Primitivo di Manduria?
+2,295,Quale metodo di produzione usa il Franciacorta?
+3,295,Cosa è l'Amarone della Valpolicella?
+4,295,Cosa è il Prosecco?
+1,296,Qual è la temperatura ideale dell'acqua per estrarre un espresso?
+1,297,A quale temperatura si serve generalmente un vino rosso strutturato?
+2,297,Cosa analizza la 'degustazione visiva' di un vino?
+1,298,In quale anno lo sci alpino fu introdotto ai Giochi Olimpici Invernali?
+2,298,Quante discipline comprende il biathlon?
+3,298,Quale nazione ha vinto più medaglie d'oro nello sci alpino nella storia dei Giochi Olimpici?
+4,298,Cosa è la discesa libera nello sci alpino?
+1,299,Cosa è il windsurf?
+2,299,Quale sport nautico olimpico si pratica su imbarcazioni a otto con timoniere?
+1,300,Chi detiene il record mondiale nei 100 metri maschili?
+2,300,Come si misura il lancio del giavellotto?
+3,300,Chi è Eliud Kipchoge?
+1,301,In quale anno l'Italia vinse il suo quarto Campionato del Mondo?
+2,301,Quale squadra di club ha vinto più UEFA Champions League?
+3,301,In quale anno si svolse il primo Campionato del Mondo di calcio?
+1,302,Cosa è il 'doppio passo' nel basket?
+2,302,Cosa è il 'tiro libero' nel basket?
+1,303,Chi è la tennista con più titoli del Grande Slam nella storia femminile?
+2,303,Quante partite ha una competizione a 5 set in un Grande Slam maschile?
+3,303,Cosa è un 'ace' nel tennis?
+4,303,Su quale superficie si gioca Wimbledon?
+1,304,Cosa è la 'pole position' in Formula 1?
+2,304,Cosa è la DRS in Formula 1?
+1,305,Da quanti poli è composta la griglia di partenza di un GP di Moto GP?
+2,305,Chi è il pilota con più titoli mondiali nella classe regina del motociclismo?
+3,305,Cosa è il 'long lap penalty' in Moto GP?
+4,305,Su quale moto Valentino Rossi ha vinto la maggior parte dei suoi titoli mondiali?
+1,306,Cosa è il 'peloton'?
+2,306,Cosa è lo 'strappo' nel ciclismo?
+3,306,Quante tappe conta tipicamente il Tour de France?
+1,307,Cosa è il 'gambetto' negli scacchi?
+2,307,Cosa è lo scacco matto?
+3,307,Cosa è la FIDE?
+4,307,Cosa è l'Arrocco negli scacchi?
+1,308,Cosa è il 'tressette' nel gioco italiano?
+2,308,Quante carte ha un mazzo standard?
+3,308,Cosa è la 'scala reale' nel poker?
+1,309,Cosa è l''all-in' nel poker?
+2,309,Cosa è il 'pot' nel poker?
+3,309,Cosa è la 'posizione' nel poker?
+1,310,Cosa è la 'punta' nella danza classica?
+2,310,In quale paese nacque il balletto classico come forma d'arte?
+3,310,Chi è Isadora Duncan?
+1,311,Chi è Bertolt Brecht?
+2,311,Chi scrisse 'Aspettando Godot'?
+3,311,Cosa è la 'catarsi' nel teatro greco?
+1,312,Chi è il Cirque du Soleil?
+2,312,Cosa è il 'clown' nel circo tradizionale?
+3,312,Cosa è il giocolaggio?
+4,312,Chi è Philippe Petit?
+5,312,Cosa è l'acrobatica aerea?
+1,313,Quale monumento è considerato il simbolo dell'Acropoli di Atene?
+2,313,Quale battaglia del 490 a.C. vide i Greci sconfiggere i Persiani?
+3,313,Chi era il principale filosofo accusato di corrompere la gioventù ad Atene?
+1,314,Cosa sono gli isomeri?
+2,314,Qual è il monomero del polietilene?
+3,314,Quale tra questi è un idrocarburo aromatico?
+1,315,Qual è l'unità di misura della forza nel SI?
+2,315,La resistenza dell'aria è un esempio di forza?
+3,315,Quale principio spiega perché un razzo si muove nello spazio?
+4,315,Cosa misura la quantità di moto?
+1,316,Qual è il titolo del capolavoro di Franz Kafka incentrato sulla metamorfosi?
+2,316,Chi vinse il Premio Nobel per la Letteratura nel 1997?
+3,316,A quale corrente letteraria appartiene Marcel Proust?
+4,316,Chi è l'autore di '1984'?
+1,317,Cosa si intende per 'ammortamento' di un debito?
+2,317,Il TIR (Tasso Interno di Rendimento) è il tasso che rende il VAN pari a?
+3,317,Cosa rappresenta il VAN (Valore Attuale Netto)?
+1,318,La membrana plasmatica è composta principalmente da?
+2,318,Quale organello cellulare è responsabile della produzione di energia (ATP)?
+3,318,Cosa contiene il nucleo cellulare?
+1,319,Qual è la capitale della Polonia?
+1,320,Quale pianeta del sistema solare è il più grande?
+2,320,Quanto tempo impiega la luce del Sole a raggiungere la Terra?
+3,320,Quante galassie si stima contenga l'universo osservabile?
+1,321,Quali lingue derivano dal Latino volgare?
+2,321,Quale lingua neolatina ha il maggior numero di parlanti nel mondo?
+1,322,Quale tecnica pittorica era la più comune nell'arte medievale?
+2,322,Cosa caratterizza l'architettura gotica?
+1,323,A quale movimento cinematografico appartiene la Nouvelle Vague?
+2,323,Il Neorealismo italiano nacque principalmente durante?
+3,323,Quale film di Ingmar Bergman è ambientato in una lunga notte estiva svedese?
+1,324,Qual è il dolce tipico della Campania consumato a Natale?
+2,324,In quale regione italiana si produce il Parmigiano Reggiano DOP?
+3,324,Quale pesce è protagonista della 'brodetto' marchigiana?
+4,324,La 'bagna cauda' è un piatto tipico di quale regione?
+5,324,Da cosa è fatto il prosciutto di Parma DOP?
+1,325,Quale sistema operativo è sviluppato da Apple per i Mac?
+2,325,Quale tra questi è un sistema operativo open source?
+3,325,Quale linguaggio di markup viene usato per creare pagine web?
+1,326,Cos'è il bicameralismo perfetto vigente in Italia?
+2,326,In quanti articoli è composta la Costituzione italiana?
+3,326,Cosa sono i diritti inviolabili dell'uomo sanciti dalla Costituzione?
+1,327,Quale tipo di costo non varia al variare della produzione?
+2,327,Cos'è il cash flow operativo?
+3,327,Cosa è il WACC?
+1,328,Chi è l'autore del 'Clavicembalo ben temperato'?
+2,328,Quale opera di Puccini si svolge in Giappone?
+3,328,Cosa è il bel canto?
+1,329,Quale concetto filosofico di Platone descrive il mondo delle idee perfette?
+2,329,Cosa sosteneva la scuola atomista di Democrito?
+3,329,Chi fu il maestro di Platone?
+1,330,Quante vertebre ha la colonna vertebrale umana?
+2,330,Quale struttura connette muscolo e osso?
+3,330,In quale parte del cervello si trovano i centri del linguaggio?
+1,331,Cosa è un ecosistema?
+2,331,Cosa è la catena alimentare?
+3,331,Quale gas è il principale responsabile dell'effetto serra antropogenico?
+1,332,Cosa sono i Giochi Paralimpici?
+2,332,Quale sport prevede la gara di 'sincronizzato' in piscina?
+3,332,In quale città si sono svolte le Olimpiadi estive del 2020 (posticipate al 2021)?
+4,332,Quante discipline sportive erano presenti alle Olimpiadi di Parigi 2024?
+1,333,Cosa studia la psicologia cognitiva?
+2,333,Chi è il fondatore del cognitivismo?
+1,334,Cosa misura l'Indice di Gini nel contesto urbano?
+2,334,Cosa studia la 'segregazione urbana'?
+1,335,Cosa caratterizza l'Umanesimo rinascimentale?
+2,335,Chi affrescò la Cappella Sistina?
+1,336,Chi è l'autore di 'Il Signore delle mosche'?
+2,336,Quale romanzo di Virginia Woolf è scritto in tecnica del 'flusso di coscienza'?
+3,336,In quale anno fu pubblicato 'Ulisse' di James Joyce?
+1,337,Quante permutazioni esistono di n elementi distinti?
+2,337,Quale struttura dati implementa il principio LIFO?
+3,337,Cosa è un grafo in matematica discreta?
+1,338,Cosa è il DNS?
+2,338,Cosa è un indirizzo MAC?
+1,339,Cosa è una tabella hash?
+2,339,Cosa calcola l'algoritmo di Dijkstra?
+3,339,Qual è la complessità temporale della ricerca binaria nel caso peggiore?
+4,339,Quale algoritmo di ordinamento ha complessità O(n log n) nel caso medio?
+1,340,Cosa è un KPI nel marketing digitale?
+2,340,Cosa significa SEO?
+3,340,Cosa è il social media marketing?
+4,340,Cosa è il 'content marketing'?
+5,340,Cosa si intende per 'retargeting'?
+1,341,Cosa è il business plan?
+2,341,Cosa è il lean management?
+1,342,"Quale movimento artistico italiano glorificava la velocità, la macchina e la guerra?"
+2,342,Chi è il fondatore della Pop Art americana?
+3,342,A quale movimento appartiene Mondrian con i suoi quadri di linee nere e colori primari?
+1,343,Cosa è l'entanglement quantistico?
+2,343,Cosa è la sovrapposizione quantistica?
+1,344,Qual è il simbolo chimico dell'oro?
+2,344,Cosa è l'elettronegatività di un elemento?
+3,344,Cosa è un legame ionico?
+1,345,Cosa sono i cefalopodi?
+1,346,Cosa è il punto epicentro di un terremoto?
+2,346,Quale vulcano è il più alto d'Europa?
+3,346,Quale tipo di roccia si forma dal raffreddamento del magma?
+1,347,Cosa è il jet stream?
+2,347,Come si chiama il vento caldo e secco che soffia dal Sahara verso il Mediterraneo?
+3,347,Cosa è l'effetto Coriolis?
+4,347,Quale tipo di nube è associata ai temporali?
+5,347,Cosa è l'umidità relativa?
+1,348,Come si chiama il fenomeno per cui una parola acquisisce un significato diverso nel tempo?
+2,348,Quanti fonemi consonantici ha l'italiano standard?
+3,348,Cosa è un morfema?
+1,349,Qual è la base del sistema binario?
+2,349,Cosa è la crittografia simmetrica?
+3,349,Cosa è il Teorema di Fermat nell'aritmetica modulare?
+4,349,Cosa è la funzione hash in crittografia?
+1,350,Chi è Prometeo nella mitologia greca?
+2,350,Quale eroe greco uccise la Medusa?
+1,351,Cosa è la Magna Carta?
+2,351,Cosa è la Peste Nera?
+1,352,Cosa è il Diwali?
+2,352,Qual è la scrittura tradizionale del Giappone?
+3,352,Quale paese asiatico è noto per la produzione di Kimono?
+4,352,Cosa è il Tao nel Taoismo?
+1,353,Chi scrisse 'Delitto e Castigo'?
+2,353,Chi scrisse 'Il Gabbiano' e 'Il Giardino dei Ciliegi'?
+3,353,Quale romanzo di Tolstoj è ambientato durante le guerre napoleoniche?
+1,354,Cosa è la globalizzazione economica?
+2,354,Cosa è il dumping nel commercio internazionale?
+3,354,Quale organizzazione internazionale supervisiona il commercio mondiale?
+1,355,A quale ordine appartengono i pipistrelli?
+2,355,Cosa è la mimetizzazione negli animali?
+3,355,Come si chiama il processo per cui gli animali trascorrono l'inverno in uno stato di torpore?
+4,355,Quale animale è il più grande vivente sulla Terra?
+1,356,Cosa sono le gimnosperme?
+2,356,Cosa è la simbiosi tra funghi e radici delle piante?
+3,356,Come si chiama il processo di trasporto dell'acqua dalla radice alle foglie?
+1,357,Cosa è un effetto collaterale di un farmaco?
+2,357,Cosa è un agonista farmacologico?
+1,358,Cosa è il principio di non ingerenza nel diritto internazionale?
+2,358,Cosa è la sovranità statale?
+1,359,Quale invenzione di Gutenberg (1450 circa) rivoluzionò la diffusione del sapere?
+2,359,Chi inventò la macchina a vapore moderna nel XVIII secolo?
+3,359,Quando fu inventato il World Wide Web?
+1,360,Cosa è l'attuatore in un robot?
+2,360,Cosa è un robot industriale?
+3,360,Cosa è la cinematica inversa in robotica?
+4,360,Chi coniò il termine 'robot' nel 1920?
+5,360,Quale sensore viene comunemente usato per permettere ai robot di percepire la profondità?
+1,361,Cosa è una rete neurale artificiale?
+2,361,Cosa è l'apprendimento automatico (machine learning)?
+3,361,Cosa è il deep learning?
+1,362,Cosa è il gradient descent?
+2,362,Cosa è la normalizzazione dei dati?
+3,362,Cosa è l'overfitting?
+1,363,Cosa è l'analisi della varianza (ANOVA)?
+2,363,Cosa misura la deviazione standard?
+3,363,Cosa è la media aritmetica?
+4,363,Cosa è il teorema del limite centrale?
+1,364,Cosa è l'integrazione per parti?
+2,364,Cosa è la lunghezza d'arco di una curva?
+3,364,Cosa calcola l'integrale definito di una funzione positiva?
+4,364,Cosa è un integrale improprio?
+1,365,Cosa è un omeomorfismo in topologia?
+2,365,Cosa è uno spazio metrico?
+3,365,Cosa è la caratteristica di Eulero di una superficie?
+4,365,Cosa studia la teoria dei nodi in topologia?
+5,365,"In topologia, cosa si intende per 'spazio compatto'?"
+1,366,Cosa è un gioco a somma zero?
+2,366,Chi è il fondatore della teoria dei giochi moderna?
+3,366,Cosa è il 'dilemma del prigioniero'?
+1,367,Chi scrisse la 'Critica della Ragion Pura'?
+2,367,Cosa afferma il cogito cartesiano?
+3,367,Cosa è l'idealismo tedesco?
+1,368,Cosa sono i 'paradigmi scientifici' secondo Thomas Kuhn?
+2,368,Cosa è il problema di Gettier?
+3,368,Cosa è il realismo epistemologico?
+4,368,Chi è il filosofo associato al falsificazionismo come criterio di scientificità?
+1,369,Cosa è l'etica della virtù?
+2,369,Cosa è il principio di giustizia di Rawls?
+3,369,Chi è il fondatore dell'etica kantiana?
+1,370,Cosa è il Corano?
+2,370,Cosa è il monoteismo?
+3,370,Quale testo è sacro per l'Ebraismo?
+4,370,Quante sono le religioni abramitiche principali?
+1,371,Cosa è lo stile corinzio nell'architettura greca?
+2,371,Quale città antica fu sepolta dall'eruzione del Vesuvio nel 79 d.C.?
+3,371,Cosa è la ceramica a figure rosse dell'Attica?
+1,372,Cosa è la numismatica?
+2,372,Cosa è il dritto di una moneta?
+3,372,Quale fu la prima moneta d'oro coniata nell'Europa medievale?
+4,372,Cosa è una moneta 'ex-voto'?
+5,372,Come si chiama la tecnica di falsificazione che aggiunge cifre al valore nominale?
+1,373,Come si chiama la lingua poetica dei trovieri del nord della Francia?
+2,373,Cosa sono i trovatori nella letteratura medievale?
+3,373,Chi è Chrétien de Troyes?
+1,374,Quale imperatore romano costruì il famoso muro in Britannia?
+1,375,Cosa è la 'Strafexpedition' del 1916?
+2,375,In quale anno scoppiò la Prima Guerra Mondiale?
+3,375,Quale accordo pose fine alla Prima Guerra Mondiale?
+4,375,Quale paese entrò in guerra nel 1917 modificando l'equilibrio delle forze?
+5,375,Cosa è la 'Battaglia della Somme' del 1916?
+1,376,Quali erano le potenze dell'Asse?
+2,376,Cosa è l'Olocausto?
+3,376,Cosa è la Resistenza italiana?
+1,377,Cosa si intende per 'stato fallito'?
+2,377,Cosa è il G20?
+3,377,Cosa è il concetto di 'soft power'?
+1,378,Cosa è la 'Responsabilità di Proteggere' (R2P)?
+2,378,Cosa è il 'balance of power'?
+3,378,Cosa è la globalizzazione nelle RI?
+1,379,Quale imperatore cinese unificò la Cina e costruì la Grande Muraglia?
+2,379,Quale guerra del XX secolo si combatté tra Nord e Sud Corea?
+1,380,Quale città africana è la più popolosa del continente?
+2,380,Chi fu il primo presidente della Namibia post-indipendenza?
+1,381,Cosa è il 'blues'?
+2,381,In quale città americana nacque il jazz?
+1,382,Quale voce maschile è la più alta nell'opera lirica?
+2,382,Chi è il compositore de 'La Traviata' e 'Rigoletto'?
+3,382,Quale opera di Puccini si svolge nella Parigi bohémienne?
+4,382,Cosa è l'aria nell'opera lirica?
+1,383,Chi compose 'Bohemian Rhapsody'?
+1,384,Chi è Berthe Morisot?
+1,385,Cosa è la policromia nella scultura antica?
+2,385,Quale stile scultoreo romano è caratterizzato da ritratti realistici dei defunti?
+1,386,Quale principio caratterizza l'architettura di Le Corbusier?
+2,386,Chi progettò il Guggenheim Museum di Bilbao?
+3,386,Cosa è il Movimento Moderno in architettura?
+4,386,Chi progettò la Casa sulla Cascata (Fallingwater)?
+1,387,Cosa è il design sostenibile?
+2,387,Chi è Dieter Rams?
+3,387,Cosa è la 'obsolescenza programmata'?
+1,388,Cosa è il diaframma in una fotocamera?
+2,388,Cosa è la profondità di campo?
+3,388,Chi è Henri Cartier-Bresson?
+4,388,Cosa è la regola dei terzi nella composizione fotografica?
+1,389,Chi sono i fratelli Lumière?
+2,389,Chi è Alfred Hitchcock?
+3,389,Quale fu il primo film sonoro della storia?
+4,389,Chi diresse 'Quarto potere' (Citizen Kane)?
+1,390,Quale scrittore messicano è noto per il romanzo 'Pedro Páramo'?
+2,390,Quale poesia è associata a Pablo Neruda?
+1,391,Quale poeta italiano è il maggior esponente dell'ermetismo?
+2,391,Chi scrisse 'Il Prufrock di J. Alfred' e vinse il Nobel nel 1948?
+3,391,Cosa è la 'Beat Generation' in poesia?
+1,392,Chi scrisse 'Ulisse'?
+2,392,Cosa è il 'flusso di coscienza' come tecnica narrativa?
+3,392,Cosa è il 'modernismo' in letteratura?
+1,393,Chi ha scritto 'Il nome della rosa'?
+2,393,Cosa è il 'digital novel'?
+3,393,Chi è Haruki Murakami?
+1,394,Cosa distingue un graphic novel da un fumetto tradizionale?
+2,394,Chi è Chris Ware?
+3,394,Chi è Art Spiegelman?
+4,394,Chi ha creato 'Watchmen'?
+1,395,Chi ha creato Corto Maltese?
+1,396,Cosa è un 'achievement' (trofeo) in un videogioco?
+2,396,Quale videogioco ha venduto più copie nella storia?
+3,396,Chi è Mario nella cultura pop dei videogiochi?
+4,396,Cosa è il 'gaming disorder' secondo l'OMS?
+1,397,Quale paese è considerato la culla della cucina gastronomica occidentale?
+2,397,Cosa è la 'nouvelle cuisine'?
+3,397,Cosa è il 'umami'?
+4,397,Cosa è il 'sous vide'?
+1,398,In quale regione italiana si produce il Barolo?
+2,398,Cosa è la 'denominazione di origine controllata e garantita' (DOCG)?
+1,399,Cosa è l'Amarone della Valpolicella?
+2,399,Quale vino rosso toscano è considerato il più pregiato d'Italia?
+3,399,Da quale vitigno si produce il Barolo?
+4,399,Cosa è il Primitivo di Manduria?
+1,400,Cosa è il 'latte art'?
+2,400,Cosa è il caffè 'specialty'?
+1,401,Cosa sono i 'bouquet' nel vino?
+2,401,Cosa analizza la 'degustazione visiva' di un vino?
+1,402,Quante discipline comprende il biathlon?
+2,402,Quale nazione ha vinto più medaglie d'oro nello sci alpino nella storia dei Giochi Olimpici?
+1,403,Quale disciplina olimpica prevede la discesa su kayak in acque mosse?
+1,404,Cosa è la marcia atletica?
+2,404,Quale disciplina di atletica prevede il salto oltre un'asticella?
+3,404,Cosa è il decathlon?
+1,405,In quale anno l'Italia vinse il suo quarto Campionato del Mondo?
+2,405,Quale squadra ha vinto più Coppe del Mondo?
+3,405,In quale anno si svolse il primo Campionato del Mondo di calcio?
+4,405,Cosa è il 'fuorigioco' nel calcio?
+1,406,Quanti giocatori per squadra sono in campo nel basket?
+2,406,Chi è Michael Jordan?
+1,407,Cosa è il 'tie-break' nel tennis?
+2,407,Cosa è un 'ace' nel tennis?
+3,407,Chi è la tennista con più titoli del Grande Slam nella storia femminile?
+4,407,Quante partite ha una competizione a 5 set in un Grande Slam maschile?
+1,408,Cosa è la 'pole position' in Formula 1?
+2,408,Cosa è il 'pit stop' in Formula 1?
+3,408,Quale pilota ha vinto più campionati del mondo di Formula 1?
+4,408,Quale circuito ospita il Gran Premio di Monaco?
+5,408,Dove si svolge il Gran Premio d'Italia di Formula 1?
+1,409,Cosa è la classe Moto GP?
+2,409,Chi è il pilota con più titoli mondiali nella classe regina del motociclismo?
+3,409,Cosa è il 'long lap penalty' in Moto GP?
+1,410,Cosa è il 'peloton'?
+1,411,Cosa è l'Arrocco negli scacchi?
+2,411,Quante caselle ha la scacchiera?
+3,411,Cosa è la FIDE?
+1,412,Cosa è il 'tressette' nel gioco italiano?
+2,412,Come si chiama il gioco di carte in cui l'obiettivo è totalizzare 21 punti?
+3,412,Cosa è la 'briscola' nel gioco italiano?
+1,413,Cosa è il 'Texas Hold'em'?
+2,413,Cosa è l''all-in' nel poker?
+3,413,Cosa è un 'tell' nel poker?
+4,413,Cosa è la 'posizione' nel poker?
+1,414,Cosa è la 'punta' nella danza classica?
+2,414,Cosa è la 'prima ballerina assoluta'?
+3,414,Quale balletto di Tchaikovsky racconta la storia di una principessa trasformata in cigno?
+1,415,Cosa è la 'catarsi' nel teatro greco?
+2,415,Cosa è il 'quarto muro' nel teatro?
+3,415,Chi scrisse 'Aspettando Godot'?
+4,415,Cosa è il 'teatro dell'assurdo'?
+1,416,Cosa è il 'clown' nel circo tradizionale?
+2,416,Chi è Philippe Petit?
+3,416,Chi è il Cirque du Soleil?
+1,417,Quale monumento è considerato il simbolo dell'Acropoli di Atene?
+2,417,Quale città-stato greca era nota per il suo sistema militare e l'addestramento spartano?
+1,418,Quali gruppi funzionali appartengono alla chimica organica?
+2,418,Qual è il monomero del polietilene?
+1,419,Qual è l'unità di misura della forza nel SI?
+2,419,Quale principio spiega perché un razzo si muove nello spazio?
+1,420,Chi vinse il Premio Nobel per la Letteratura nel 1997?
+1,421,"Nella capitalizzazione composta, gli interessi maturati vengono?"
+2,421,Qual è la formula dell'interesse semplice?
+3,421,Cosa calcola il tasso di interesse semplice?
+4,421,Cosa si intende per 'ammortamento' di un debito?
+1,422,Quale tra questi è un organello esclusivo delle cellule vegetali?
+2,422,Cosa sono i ribosomi?
+3,422,Cosa contiene il nucleo cellulare?
+1,423,Quale paese non fa parte dell'Unione Europea?
+2,423,Qual è la capitale della Polonia?
+1,424,Quale pianeta del sistema solare è il più grande?
+2,424,Quante galassie si stima contenga l'universo osservabile?
+3,424,Quale pianeta è noto per i suoi anelli?
+1,425,Come si dice 'acqua' in spagnolo?
+2,425,Quale lingua neolatina ha il maggior numero di parlanti nel mondo?
+3,425,Come si chiama la fase intermedia tra latino e italiano che produsse le prime scritture volgari?
+4,425,Quale documento italiano è considerato la prima attestazione scritta in volgare?
+5,425,Quali lingue derivano dal Latino volgare?
+1,426,L'arazzo di Bayeux raffigura quale evento storico?
+2,426,Cosa sono i codici miniati medievali?
+3,426,Quale stile architettonico precedette il gotico nell'Europa medievale?
+4,426,Quale tecnica artistica era comune nell'arte bizantina?
+1,427,Chi diresse 'Ladri di biciclette'?
+2,427,Quale film di Ingmar Bergman è ambientato in una lunga notte estiva svedese?
+3,427,Il Neorealismo italiano nacque principalmente durante?
+1,428,In quale regione italiana si produce il Parmigiano Reggiano DOP?
+2,428,Qual è il dolce tipico della Campania consumato a Natale?
+1,429,Cosa significa RAM?
+2,429,Quale tra questi è un sistema operativo open source?
+3,429,Quale linguaggio di markup viene usato per creare pagine web?
+4,429,Cosa è un algoritmo?
+5,429,Cosa fa un compilatore?
+1,430,Il diritto di voto in Italia spetta ai cittadini che abbiano compiuto?
+1,431,Quale tipo di costo non varia al variare della produzione?
+2,431,La leva finanziaria misura?
+1,432,Quale compositore romantico è noto per i suoi notturni per pianoforte?
+2,432,Chi compose la Quinta Sinfonia in Do minore?
+3,432,Chi compose 'Le quattro stagioni'?
+4,432,Quale periodo musicale è caratterizzato dall'armonia tonale e dalla simmetria delle forme?
+1,433,Cosa sosteneva la scuola atomista di Democrito?
+2,433,Cosa significa il termine 'catarsi' nella filosofia di Aristotele?
+3,433,Chi fu il maestro di Platone?
+1,434,Quante vertebre ha la colonna vertebrale umana?
+2,434,Quale struttura connette muscolo e osso?
+3,434,Qual è l'osso più lungo del corpo umano?
+1,435,Cosa è la catena alimentare?
+2,435,Cosa misura l'impronta ecologica?
+1,436,Chi detiene il record mondiale nei 100 metri piani maschili?
+2,436,Quante discipline sportive erano presenti alle Olimpiadi di Parigi 2024?
+1,437,Cosa è il pensiero critico?
+2,437,Cosa si intende per 'bias cognitivo'?
+3,437,Il modello di elaborazione dell'informazione paragona la mente a?
+4,437,Cosa è la memoria di lavoro?
+1,438,Chi è considerato il padre della sociologia urbana moderna?
+2,438,Cosa studia la 'segregazione urbana'?
+3,438,Cosa è uno 'sprawl urbano'?
+4,438,Cosa sono le 'megalopoli'?
+1,439,In quale città italiana nacque il Rinascimento nel XIV-XV secolo?
+2,439,Cosa caratterizza l'Umanesimo rinascimentale?
+3,439,Chi affrescò la Cappella Sistina?
+1,440,A quale epoca appartiene William Shakespeare?
+2,440,Chi scrisse 'La ballata del vecchio marinaio'?
+1,441,Cosa è la logica proposizionale?
+2,441,Cosa studia la matematica discreta?
+3,441,Quale struttura dati implementa il principio LIFO?
+4,441,Cosa è la complessità computazionale O(n log n)?
+5,441,Cosa è un grafo in matematica discreta?
+1,442,Cosa è un router?
+2,442,Su quale livello del modello OSI opera il protocollo TCP?
+3,442,Cosa significa 'IP' in informatica?
+1,443,Cosa è la ricorsione in programmazione?
+2,443,Cosa calcola l'algoritmo di Dijkstra?
+3,443,Cosa è un albero binario di ricerca (BST)?
+4,443,Quale struttura dati usa il principio FIFO?
+1,444,Cosa misura il CTR (Click-Through Rate)?
+2,444,Cosa significa SEO?
+3,444,Cosa è il social media marketing?
+1,445,Cosa è il business plan?
+2,445,Cosa analizza la SWOT analysis?
+3,445,Cosa è il lean management?
+1,446,Cosa è l'Arte Astratta?
+2,446,Quale artista è noto per i suoi orologi molli nel 'quadro La persistenza della memoria'?
+1,447,Cosa è la sovrapposizione quantistica?
+2,447,Chi propose il modello atomico a strati con livelli energetici quantizzati?
+3,447,Cosa è il gatto di Schrödinger?
+4,447,Cosa è la costante di Planck?
+1,448,Qual è la formula chimica dell'acido solforico?
+2,448,Cosa è l'elettronegatività di un elemento?
+1,449,A quale profondità vive la fauna abissale?
+2,449,Cosa è la barriera corallina?
+3,449,Cos'è il plancton?
+4,449,Come si chiama il processo per cui alcune piante marine producono ossigeno?
+1,450,Come si misura la magnitudo di un terremoto?
+2,450,Cosa è la lava?
+1,451,Come si chiama il vento caldo e secco che soffia dal Sahara verso il Mediterraneo?
+2,451,Cosa è l'umidità relativa?
+1,452,Cosa è la sintassi?
+1,453,Cosa è il Teorema di Fermat nell'aritmetica modulare?
+2,453,Cosa è l'algoritmo di Euclide?
+3,453,Cosa è un numero primo?
+4,453,Cosa è la funzione hash in crittografia?
+1,454,Cosa è il tallone d'Achille?
+2,454,Qual è il nome del fiume degli inferi nella mitologia greca?
+3,454,Chi era Ulisse (Odisseo) nella mitologia greca?
+4,454,Chi era il dio romano della guerra?
+1,455,Quando terminò il Medioevo secondo la tradizione storiografica?
+2,455,Quale imperatore fu incoronato da Papa Leone III nell'800 d.C.?
+3,455,Quando convenzionalmente inizia il Medioevo?
+4,455,Cosa è la Peste Nera?
+1,456,Cosa è il Diwali?
+2,456,"Quale filosofia cinese enfatizza l'armonia sociale, il rispetto e la pietà filiale?"
+3,456,Cosa è il Tao nel Taoismo?
+1,457,Chi scrisse 'Delitto e Castigo'?
+2,457,In quale opera Gogol descrive le avventure di Chichikov che compra 'anime morte'?
+3,457,Cosa è lo stile del 'realismo critico' nella letteratura russa del XIX secolo?
+4,457,Chi scrisse 'Il Gabbiano' e 'Il Giardino dei Ciliegi'?
+1,458,Cosa è la globalizzazione economica?
+2,458,Cosa è l'economia di scala?
+3,458,Quale organizzazione internazionale supervisiona il commercio mondiale?
+1,459,Quale invertebrato è il più intelligente?
+2,459,A quale ordine appartengono i pipistrelli?
+3,459,Quale animale è il più grande vivente sulla Terra?
+4,459,Cosa distingue i mammiferi dagli altri vertebrati?
+5,459,Cosa è la partenogenesi?
+1,460,Qual è la funzione principale della clorofilla nelle piante?
+2,460,Come si chiama il processo di trasporto dell'acqua dalla radice alle foglie?
+1,461,Cosa è la biodisponibilità di un farmaco?
+2,461,Cosa è la farmacocinetica?
+3,461,Cosa sono i farmaci generici?
+1,462,Quale organizzazione internazionale fu fondata nel 1945 con l'obiettivo di mantenere la pace mondiale?
+2,462,Quale documento internazionale del 1948 sancisce i diritti fondamentali dell'uomo?
+3,462,Cosa è la sovranità statale?
+1,463,Chi inventò la macchina a vapore moderna nel XVIII secolo?
+2,463,Quale invenzione di Gutenberg (1450 circa) rivoluzionò la diffusione del sapere?
+3,463,Chi inventò il telefono nel 1876?
+1,464,Cosa è la cinematica inversa in robotica?
+2,464,Chi coniò il termine 'robot' nel 1920?
+3,464,Quale sensore viene comunemente usato per permettere ai robot di percepire la profondità?
+1,465,Cosa è l'apprendimento automatico (machine learning)?
+2,465,Cosa è il test di Turing?
+1,466,Cosa è l'overfitting?
+2,466,Cosa è un albero decisionale?
+3,466,Cosa è il gradient descent?
+4,466,Cosa è la cross-validation?
+1,467,Cosa è l'intervallo di confidenza al 95%?
+2,467,Cosa è il p-value in un test statistico?
+3,467,Cosa misura la deviazione standard?
+4,467,Cosa è la media aritmetica?
+1,468,Quale metodo numerico approssima un integrale dividendo l'intervallo in trapezi?
+1,469,Cosa è un omeomorfismo in topologia?
+2,469,Cosa è la caratteristica di Eulero di una superficie?
+3,469,Cosa studia la teoria dei nodi in topologia?
+1,470,Cosa è il 'dilemma del prigioniero'?
+2,470,Cosa è l'equilibrio di Nash?
+3,470,Cosa studia la teoria dei giochi evolutivi?
+1,471,Cosa afferma il cogito cartesiano?
+2,471,Chi è il fondatore del pragmatismo americano?
+3,471,Cosa è il nichilismo in filosofia?
+1,472,Chi è il filosofo associato al falsificazionismo come criterio di scientificità?
+2,472,Cosa è lo scetticismo epistemologico?
+3,472,Cosa sono i 'paradigmi scientifici' secondo Thomas Kuhn?
+1,473,Cosa è il principio di giustizia di Rawls?
+2,473,Cosa è l'imperativo categorico di Kant?
+3,473,Cosa è la bioetica?
+4,473,Chi è il fondatore dell'etica kantiana?
+5,473,Cosa è l'utilitarismo?
+1,474,Cosa è il Nirvana nel Buddhismo?
+2,474,Cosa è il panteismo?
+3,474,Cosa è il Corano?
+1,475,Quale strumento usa l'archeologia per datare reperti organici?
+2,475,Cosa è un'anfora nell'antichità classica?
+3,475,Quale civiltà costruì la città di Troia?
+4,475,Cosa è lo stile corinzio nell'architettura greca?
+5,475,Dove si trova la celebre statua greca del Discobolo?
+1,476,Cosa è una moneta 'ex-voto'?
+2,476,Cosa è la numismatica?
+1,477,Cosa sono i trovatori nella letteratura medievale?
+2,477,Cosa studia la filologia romanza?
+3,477,Quale testo italiano del XIII secolo rappresenta la prima grande opera in volgare?
+1,478,Cosa è il 'cursus honorum' romano?
+2,478,In quale data convenzionale si colloca la fondazione di Roma?
+3,478,Quando cadde l'Impero Romano d'Occidente?
+4,478,Cosa è il Senato romano?
+1,479,In quale anno scoppiò la Prima Guerra Mondiale?
+2,479,Cosa è la 'Battaglia della Somme' del 1916?
+1,480,In quale anno iniziò la Seconda Guerra Mondiale?
+2,480,In quale data avvenne lo sbarco in Normandia (D-Day)?
+3,480,Cosa è l'Olocausto?
+1,481,Cosa è il concetto di 'soft power'?
+2,481,Cosa è il Consiglio di Sicurezza dell'ONU?
+1,482,Cosa è la deterrenza nucleare?
+2,482,Cosa è la globalizzazione nelle RI?
+1,483,Cosa è la Via della Seta?
+2,483,Chi fu il fondatore dell'Impero Mongolo?
+1,484,Chi fu il primo presidente della Namibia post-indipendenza?
+2,484,Cosa è l'apartheid?
+3,484,Quale religione è prevalente nel Nord Africa?
+1,485,Chi è Miles Davis?
+2,485,Cosa è lo 'scat singing'?
+3,485,Cosa è il 'blues'?
+4,485,Quale strumento è più associato a Thelonious Monk?
+1,486,Cosa è il libretto in un'opera lirica?
+2,486,Cosa è l'aria nell'opera lirica?
+3,486,Chi è il compositore de 'La Traviata' e 'Rigoletto'?
+4,486,Chi compose il 'Barbiere di Siviglia'?
+1,487,Cosa è il 'grunge'?
+2,487,Cosa è il 'punk rock'?
+3,487,Quale evento del 1969 è simbolo della controcultura hippie e del rock?
+4,487,Chi compose 'Bohemian Rhapsody'?
+1,488,"Chi dipinse 'Impressione, levar del sole' che diede nome al movimento?"
+2,488,Chi dipinse 'Le grandi bagnanti' e fondò il Post-Impressionismo?
+1,489,Quale scultura greca è considerata il simbolo della bellezza ideale maschile?
+2,489,Cosa è la policromia nella scultura antica?
+3,489,Con quale materiale lavoravano principalmente gli scultori greci classici?
+1,490,Cosa è il Movimento Moderno in architettura?
+2,490,Cosa è il curtain wall nell'architettura moderna?
+3,490,Chi progettò la Casa sulla Cascata (Fallingwater)?
+1,491,Cosa è il prototipo nel processo di design industriale?
+2,491,Cosa è il design 'form follows function'?
+3,491,Chi è Raymond Loewy?
+1,492,Cosa è la profondità di campo?
+2,492,Cosa è il diaframma in una fotocamera?
+3,492,Cosa è la regola dei terzi nella composizione fotografica?
+1,493,Cosa è il montaggio nel cinema?
+2,493,Cosa è il cinema verité?
+3,493,Chi diresse 'Quarto potere' (Citizen Kane)?
+1,494,Cosa è il 'realismo magico'?
+2,494,Chi scrisse 'Cent'anni di solitudine'?
+1,495,Cosa è la poesia concreta?
+2,495,Chi scrisse 'Il Prufrock di J. Alfred' e vinse il Nobel nel 1948?
+3,495,Quale poeta italiano è il maggior esponente dell'ermetismo?
+1,496,Cosa è il 'postmodernismo' in letteratura?
+1,497,Cosa è l'autofiction?
+2,497,Chi ha scritto 'Se una notte d'inverno un viaggiatore'?
+1,498,Cosa è 'Persepolis'?
+2,498,Cosa distingue un graphic novel da un fumetto tradizionale?
+3,498,Chi ha creato 'Watchmen'?
+1,499,Chi è Zerocalcare?
+2,499,Chi ha creato Corto Maltese?
+1,500,Cosa è il 'gaming disorder' secondo l'OMS?
+2,500,Quale titolo è considerato il primo videogioco commerciale della storia?
+3,500,Chi è Mario nella cultura pop dei videogiochi?
+1,501,Quale paese è considerato la culla della cucina gastronomica occidentale?
+2,501,Cosa è il 'sous vide'?
+1,502,Quale vitigno è usato per produrre il Brunello di Montalcino?
+2,502,In quale regione italiana si produce il Barolo?
+1,503,In quale regione si produce il Vermentino di Gallura DOCG?
+2,503,Da quale vitigno si produce il Barolo?
+3,503,Cosa è il Prosecco?
+1,504,Qual è la temperatura ideale dell'acqua per estrarre un espresso?
+1,505,Cosa significa 'persistenza aromatica' in un vino?
+2,505,Quale tipo di bicchiere è indicato per un vino bianco giovane?
+3,505,Cosa sono i 'bouquet' nel vino?
+1,506,Cosa è il 'mogul' nello sci freestyle?
+2,506,In quale anno lo sci alpino fu introdotto ai Giochi Olimpici Invernali?
+1,507,Cosa è la Coppa America nella vela?
+2,507,Quale disciplina olimpica prevede la discesa su kayak in acque mosse?
+1,508,Cosa è la maratona?
+2,508,Come si misura il lancio del giavellotto?
+3,508,Cosa è la marcia atletica?
+4,508,Quale disciplina di atletica prevede il salto oltre un'asticella?
+1,509,Cosa è il 'fuorigioco' nel calcio?
+2,509,In quale anno si svolse il primo Campionato del Mondo di calcio?
+3,509,Chi è considerato il più grande calciatore di tutti i tempi da molti esperti?
+4,509,Cosa è il VAR nel calcio moderno?
+1,510,Quanti giocatori per squadra sono in campo nel basket?
+2,510,Quanti secondi ha una squadra per tirare nel basket NBA?
+3,510,Cosa è il 'tiro libero' nel basket?
+1,511,Quante partite ha una competizione a 5 set in un Grande Slam maschile?
+2,511,Cosa è il 'tie-break' nel tennis?
+3,511,Su quale superficie si gioca Wimbledon?
+4,511,Quanti Slam ha vinto Novak Djokovic (aggiornato al 2024)?
+1,512,Cosa è la 'pole position' in Formula 1?
+2,512,Dove si svolge il Gran Premio d'Italia di Formula 1?
+3,512,Cosa è la DRS in Formula 1?
+4,512,Cosa è il 'pit stop' in Formula 1?
+5,512,Quale circuito ospita il Gran Premio di Monaco?
+1,513,Cosa è il 'long lap penalty' in Moto GP?
+2,513,Chi è il pilota con più titoli mondiali nella classe regina del motociclismo?
+1,514,Cosa è lo 'strappo' nel ciclismo?
+2,514,Cosa è il 'peloton'?
+3,514,Cosa rappresenta la 'maglia gialla' al Tour de France?
+1,515,Come si muove il cavallo negli scacchi?
+1,516,Cosa è il 'tressette' nel gioco italiano?
+2,516,Quante carte ha un mazzo standard?
+3,516,Cosa è il 'bridge' come gioco di carte?
+4,516,Cosa è la 'briscola' nel gioco italiano?
+1,517,Cosa è il 'pot' nel poker?
+2,517,Cosa è la 'posizione' nel poker?
+1,518,Cosa è la 'punta' nella danza classica?
+2,518,Chi è Rudolf Nureyev?
+3,518,Quale balletto di Tchaikovsky racconta la storia di una principessa trasformata in cigno?
+1,519,Quale drammaturgo norvegese scrisse 'Casa di bambola'?
+2,519,Cosa è la 'catarsi' nel teatro greco?
+3,519,Cosa è il 'teatro dell'assurdo'?
+4,519,Cosa è il 'quarto muro' nel teatro?
+1,520,Cosa è la 'commedia fisica' nelle arti performative?
+2,520,Cosa è il 'nouveau cirque'?
+3,520,Cosa è l'acrobatica aerea?
+4,520,Chi è il Cirque du Soleil?
+1,521,Chi era il principale filosofo accusato di corrompere la gioventù ad Atene?
+2,521,Quale monumento è considerato il simbolo dell'Acropoli di Atene?
+1,522,Qual è la formula molecolare del metano?
+2,522,Quale tra questi è un idrocarburo aromatico?
+3,522,Quali gruppi funzionali appartengono alla chimica organica?
+1,523,La resistenza dell'aria è un esempio di forza?
+2,523,Qual è l'unità di misura della forza nel SI?
+3,523,Quale principio spiega perché un razzo si muove nello spazio?
+4,523,Un corpo in moto rettilineo uniforme ha accelerazione pari a?
+1,524,Qual è il titolo del capolavoro di Franz Kafka incentrato sulla metamorfosi?
+2,524,Chi vinse il Premio Nobel per la Letteratura nel 1997?
+3,524,Chi è l'autore di '1984'?
+1,525,Qual è la formula dell'interesse semplice?
+2,525,Cosa rappresenta il VAN (Valore Attuale Netto)?
+3,525,Cosa si intende per 'ammortamento' di un debito?
+4,525,Cosa misura la duration di un'obbligazione?
+5,525,Cosa calcola il tasso di interesse semplice?
+1,526,Cosa sono i ribosomi?
+2,526,Il processo di fotosintesi avviene nei?
+3,526,La membrana plasmatica è composta principalmente da?
+4,526,Quale tra questi è un organello esclusivo delle cellule vegetali?
+1,527,Il fiume Danubio sfocia in quale mare?
+2,527,Quale paese europeo ha la superficie maggiore?
+3,527,Qual è la capitale dell'Ungheria?
+4,527,Quale paese non fa parte dell'Unione Europea?
+1,528,Quale pianeta è noto per i suoi anelli?
+2,528,Quale teoria descrive l'origine dell'universo?
+3,528,Cosa è una nebulosa?
+1,529,Quale lingua neolatina ha il maggior numero di parlanti nel mondo?
+2,529,Il romeno appartiene alle lingue neolatine?
+3,529,Quale trasformazione fonetica distingue l'italiano dal latino?
+1,530,Quale tecnica artistica era comune nell'arte bizantina?
+2,530,Cosa caratterizza l'architettura gotica?
+1,531,Il Neorealismo italiano nacque principalmente durante?
+2,531,Chi è il regista di '8½'?
+3,531,Quale film di Ingmar Bergman è ambientato in una lunga notte estiva svedese?
+1,532,La 'bagna cauda' è un piatto tipico di quale regione?
+2,532,Qual è il dolce tipico della Campania consumato a Natale?
+3,532,Quale pasta è tipica della cucina siciliana?
+1,533,Quale linguaggio di markup viene usato per creare pagine web?
+2,533,Quale sistema operativo è sviluppato da Apple per i Mac?
+1,534,Cos'è il bicameralismo perfetto vigente in Italia?
+2,534,Cosa sono i diritti inviolabili dell'uomo sanciti dalla Costituzione?
+3,534,Quale organo in Italia esercita il controllo di legittimità costituzionale delle leggi?
+4,534,Il diritto di voto in Italia spetta ai cittadini che abbiano compiuto?
+1,535,Cosa misura il ROE (Return on Equity)?
+2,535,Cos'è il break-even point?
+3,535,Cosa è il WACC?
+1,536,Chi compose 'Le quattro stagioni'?
+2,536,Cosa è il bel canto?
+1,537,Cosa studia l'etica nella filosofia greca?
+2,537,Cosa sosteneva la scuola atomista di Democrito?
+3,537,Cosa significa il termine 'catarsi' nella filosofia di Aristotele?
+1,538,Quante vertebre ha la colonna vertebrale umana?
+2,538,In quale parte del cervello si trovano i centri del linguaggio?
+3,538,Qual è l'osso più lungo del corpo umano?
+4,538,Quale organo produce l'insulina?
+1,539,Cosa è la catena alimentare?
+2,539,Quale accordo internazionale mira a ridurre le emissioni di gas serra?
+3,539,Cosa si intende con 'specie invasiva'?
+1,540,Quale sport prevede la gara di 'sincronizzato' in piscina?
+2,540,"Il motto olimpico 'Citius, Altius, Fortius' significa?"
+1,541,Il modello di elaborazione dell'informazione paragona la mente a?
+2,541,Cosa è la memoria di lavoro?
+3,541,Cosa studia la psicologia cognitiva?
+4,541,Cosa è il pensiero critico?
+1,542,La 'Scuola di Chicago' è famosa per i suoi studi su?
+2,542,Cosa studia la 'segregazione urbana'?
+3,542,Cosa sono le 'megalopoli'?
+4,542,Cosa è uno 'sprawl urbano'?
+1,543,Chi affrescò la Cappella Sistina?
+2,543,Quale invenzione di Gutenberg rivoluzionò la diffusione del sapere rinascimentale?
+3,543,Chi è l'autore del 'Principe'?
+1,544,Quale opera di Charles Dickens descrive la vita nell'Inghilterra vittoriana?
+2,544,Chi scrisse 'Orgoglio e pregiudizio'?
+3,544,In quale anno fu pubblicato 'Ulisse' di James Joyce?
+1,545,Cosa è la logica proposizionale?
+2,545,Cosa studia la matematica discreta?
+3,545,Cosa è la complessità computazionale O(n log n)?
+1,546,Cosa è un indirizzo MAC?
+2,546,Qual è la differenza tra TCP e UDP?
+3,546,Cosa è un router?
+1,547,Cosa è la ricorsione in programmazione?
+2,547,Qual è la complessità temporale della ricerca binaria nel caso peggiore?
+3,547,Cosa è una tabella hash?
+4,547,Cosa calcola l'algoritmo di Dijkstra?
+5,547,Cosa è un albero binario di ricerca (BST)?
+1,548,Cosa significa SEO?
+2,548,Cosa è un KPI nel marketing digitale?
+3,548,Cosa è il 'content marketing'?
+1,549,Cosa è il management per obiettivi (MBO)?
+2,549,Cosa è la catena del valore di Porter?

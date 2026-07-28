@@ -1,0 +1,110 @@
+{% extends 'quiz/base.html' %}
+{% block title %}Risultato{% endblock %}
+{% block content %}
+<div class="main-wrapper">
+  <aside class="sidebar">
+    <h2>📊 Riepilogo</h2>
+    <div class="filter-group">
+      <label>Quiz</label>
+      <div class="extracted-style-abf7bd">
+        <a class="extracted-style-2efd64" href="{% url 'quiz_dettaglio' part.codiceQuiz %}">
+          {{ part.titolo }}
+        </a>
+      </div>
+    </div>
+    <div class="filter-group">
+      <label>Partecipante</label>
+      <div>
+        <a class="extracted-style-0a4546" href="{% url 'utenti' %}?username={{ part.nomeUtente }}">
+          {{ part.cognome }}, {{ part.nome }}
+        </a>
+        <div class="extracted-style-1fcc11">{{ part.eMail }}</div>
+      </div>
+    </div>
+    <div class="filter-group">
+      <label>Data</label>
+      <div>{{ part.data }}</div>
+    </div>
+    <hr class="extracted-style-d9d92a">
+
+    {# FIX: il tasto "Torna indietro" va alla pagina da cui si è venuti #}
+    {% if da_partecipazioni %}
+      <a href="{% url 'partecipazioni' %}" class="btn btn-outline extracted-style-cf5a7a">
+        ← Torna alle partecipazioni
+      </a>
+    {% else %}
+      <a href="{% url 'quiz_dettaglio' part.codiceQuiz %}" class="btn btn-outline extracted-style-cf5a7a">
+        ← Torna al quiz
+      </a>
+    {% endif %}
+
+    {% if quiz_aperto %}
+    <a href="{% url 'partecipa' part.codiceQuiz %}" class="btn btn-primary extracted-style-299129">
+      🔄 Rifai il quiz
+    </a>
+    {% endif %}
+  </aside>
+
+  <main class="main-content">
+    <div class="breadcrumb">
+      <a href="{% url 'quiz_lista' %}">Quiz</a>
+      <span>›</span>
+      <a href="{% url 'quiz_dettaglio' part.codiceQuiz %}">{{ part.titolo }}</a>
+      <span>›</span>
+      Risultato
+    </div>
+
+    <div class="risultato-box extracted-style-c713cb">
+      <div class="score-circle">
+        <span>{{ perc }}%</span>
+        <span class="extracted-style-06245a"><span class="extracted-style-043cda">{{ punteggio|floatformat:1 }}</span> / {{ max_punti|floatformat:1 }}</span>
+      </div>
+      <h2 class="extracted-style-97e1a0">
+        {% if perc >= 80 %}🏆 Ottimo risultato!
+        {% elif perc >= 60 %}👍 Buon risultato!
+        {% elif perc >= 40 %}💪 Quasi!
+        {% else %}📚 Riprova!
+        {% endif %}
+      </h2>
+      <p class="extracted-style-a223c3">
+        Hai ottenuto <strong>{{ punteggio|floatformat:1 }}</strong> punti su un massimo di <strong>{{ max_punti|floatformat:1 }}</strong>.
+      </p>
+    </div>
+
+    <h3 class="extracted-style-6b4788">
+      📝 Dettaglio Risposte
+    </h3>
+
+    {% for numDom, g in grouped.items %}
+      <div class="domanda-item extracted-style-5b214b">
+        <div class="domanda-header {% if g.errore %}domanda-header-errore{% else %}domanda-header-default{% endif %}">
+          <span class="domanda-num">{{ numDom }}</span>
+          <span>{{ g.testo }}</span>
+          <span class="extracted-style-338b25">
+            {% if g.errore %}
+              {# FIX: era "Annullata" — ora corretto in "Risposta errata" #}
+              ❌ <span class="extracted-style-806a47">Risposta errata (0 pt)</span>
+            {% else %}
+              ✅ <span class="extracted-style-0f8e28">+{{ g.punti_parziali }} pt</span>
+            {% endif %}
+          </span>
+        </div>
+        <div class="extracted-style-ef1a77">
+          {% for rr in g.risposte_date %}
+            <div>
+              <span class="extracted-style-de6edf">Scelta: </span>
+              <strong>{{ rr.testoRisp }}</strong>
+              {% if rr.punteggio %}
+                <span class="extracted-style-5e8394">(+{{ rr.punteggio }} pt)</span>
+              {% else %}
+                <span class="extracted-style-8e5f1a">Sbagliata</span>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+
+  </main>
+</div>
+{% endblock %}

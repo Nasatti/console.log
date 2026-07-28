@@ -1,0 +1,83 @@
+{% extends 'quiz/base.html' %}
+{% block title %}Partecipa: {{ quiz.titolo }}{% endblock %}
+{% block content %}
+<div class="main-wrapper">
+  <aside class="sidebar">
+    <h2>📋 Quiz</h2>
+    <p class="extracted-style-a3c032">{{ quiz.titolo }}</p>
+    <p class="extracted-style-c64b21">
+      👤 {{ quiz.nome }} {{ quiz.cognome }}<br>
+      ❓ {{ domande|length }} domande
+    </p>
+    <hr class="extracted-style-d9d92a">
+    <div class="extracted-style-bc0ba6">
+      <strong>Istruzioni:</strong><br>
+      Seleziona il tuo nome utente. Più risposte possono essere corrette: spunta tutte le opzioni che ritieni valide.<br><br>
+      Al termine premi <strong>"Consegna Quiz"</strong>.
+    </div>
+    <hr class="extracted-style-d9d92a">
+    <a href="#" class="btn btn-outline extracted-style-cf5a7a nav-post" data-url="{% url 'quiz_dettaglio' %}" data-quiz-id="{{ quiz.codice }}">
+      ← Torna al quiz
+    </a>
+  </aside>
+
+  <main class="main-content">
+    <div class="breadcrumb">
+      <a href="{% url 'quiz_lista' %}">Quiz</a>
+      <span>›</span>
+      <a href="#" class="nav-post" data-url="{% url 'quiz_dettaglio' %}" data-quiz-id="{{ quiz.codice }}">{{ quiz.titolo }}</a>
+      <span>›</span>
+      Partecipa
+    </div>
+
+    <div class="partecipa-wrapper">
+      {% if err_utente %}
+        <div class="alert alert-error">⚠ {{ err_utente }}</div>
+      {% endif %}
+
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill extracted-style-2f5811" id="progress-fill"></div>
+      </div>
+
+      <form method="POST" id="quiz-play-form" data-total-domande="{{ domande|length }}">
+        {% csrf_token %}
+        <input type="hidden" name="is_submission" value="1">
+        <input type="hidden" name="quiz_id" value="{{ quiz.codice }}">
+        <input type="hidden" name="nomeUtente" id="nomeUtente-hidden">
+        
+        <div class="form-section extracted-style-2da5d6" id="partecipante-banner">
+          <h3>👤 Chi partecipa?</h3>
+          <div class="extracted-style-53a0a2" id="partecipante-info"></div>
+        </div>
+
+        {% for dom in domande %}
+          <div class="domanda-box" data-numdom="{{ dom.numero }}">
+            <div class="extracted-style-6dbd21">
+              Domanda {{ dom.numero }} di {{ domande|length }}
+            </div>
+            <div class="domanda-testo">{{ dom.testo }}</div>
+            <div class="risposte-play">
+              {% for r in dom.risposte %}
+                <label class="risposta-radio">
+                  <input type="checkbox" name="risposte[{{ dom.numero }}][]" value="{{ r.numero }}">
+                  {{ r.testo }}
+                </label>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+
+        <div class="extracted-style-b2d82b">
+          <a href="#" class="btn btn-outline nav-post" data-url="{% url 'quiz_dettaglio' %}" data-quiz-id="{{ quiz.codice }}">Annulla</a>
+          <button type="submit" class="btn btn-success btn-lg" id="submit-btn">
+            ✅ Consegna Quiz
+          </button>
+        </div>
+      </form>
+    </div>
+  </main>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+{% endblock %}

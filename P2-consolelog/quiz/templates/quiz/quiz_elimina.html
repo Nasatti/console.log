@@ -1,0 +1,60 @@
+{% extends 'quiz/base.html' %}
+{% block title %}Elimina Quiz{% endblock %}
+{% block content %}
+<div class="main-wrapper">
+  <aside class="sidebar">
+    <h2>⚠️ Attenzione</h2>
+    <p class="extracted-style-4f2eed">
+      L'eliminazione del quiz rimuoverà in modo permanente:<br><br>
+      ✕ &nbsp;Tutte le <strong>domande</strong><br>
+      ✕ &nbsp;Tutte le <strong>risposte</strong><br>
+      ✕ &nbsp;Tutte le <strong>partecipazioni</strong><br><br>
+      Questa operazione <strong>non può essere annullata</strong>.
+    </p>
+    <hr class="extracted-style-d9d92a">
+    <a href="{% url 'quiz_dettaglio' quiz.codice %}" class="btn btn-outline extracted-style-cf5a7a">
+      ← Torna al quiz
+    </a>
+  </aside>
+
+  <main class="main-content extracted-style-bc6de5">
+    <div class="extracted-style-b08640">
+      <div class="breadcrumb">
+        <a href="{% url 'quiz_lista' %}">Quiz</a>
+        <span>›</span>
+        <a href="{% url 'quiz_dettaglio' quiz.codice %}">{{ quiz.titolo }}</a>
+        <span>›</span>
+        Elimina
+      </div>
+
+      {% if msg %}
+        <div class="alert alert-{{ msg_type }}">{{ msg }}</div>
+      {% endif %}
+
+      <div class="delete-confirm-box">
+        <div class="extracted-style-1b5d50">🗑️</div>
+        <h3>Elimina Quiz</h3>
+        <p>Stai per eliminare il quiz:<br>
+          <strong class="extracted-style-64c406">"{{ quiz.titolo }}"</strong>
+        </p>
+        <div class="extracted-style-6a975d">
+          <div>📋 Codice: <strong>#{{ quiz.codice }}</strong></div>
+          <div>👤 Creatore: <strong>{{ quiz.nome }} {{ quiz.cognome }}</strong></div>
+          <div>❓ Domande: <strong>{{ quiz.num_domande }}</strong></div>
+          <div>👥 Partecipazioni: <strong>{{ quiz.num_partecipazioni }}</strong></div>
+        </div>
+        <form method="POST">
+          {% csrf_token %}
+          <input type="hidden" name="quiz_id" value="{{ quiz.codice }}">
+          <div class="extracted-style-816cd0">
+            <a href="{% url 'quiz_dettaglio' quiz.codice %}" class="btn btn-outline">Annulla</a>
+            <button type="submit" name="conferma" value="1" class="btn btn-danger">
+              🗑 Elimina Definitivamente
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+</div>
+{% endblock %}

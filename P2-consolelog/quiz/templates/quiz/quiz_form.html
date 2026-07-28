@@ -1,0 +1,148 @@
+{% extends 'quiz/base.html' %}
+
+{% block title %}{% if is_edit %}Modifica Quiz{% else %}Nuovo Quiz{% endif %}{% endblock %}
+
+{% block content %}
+<div class="main-wrapper">
+  <aside class="sidebar">
+    <h2>ℹ️ Istruzioni</h2>
+    <p class="extracted-style-4f2eed">
+      {% if is_edit %}
+        Stai <strong>modificando</strong> il quiz #{{ quiz.codice }}.<br><br>
+        Le domande esistenti verranno <strong>sostituite</strong> con quelle inserite di seguito.
+      {% else %}
+        Compila il form per creare un <strong>nuovo quiz</strong>.<br><br>
+        Aggiungi almeno una domanda con le relative risposte.<br><br>
+        Le risposte con un punteggio sono <strong>corrette</strong>; quelle senza punteggio sono <strong>sbagliate</strong>.
+      {% endif %}
+    </p>
+    <hr class="extracted-style-d9d92a">
+    <a href="{% url 'quiz_lista' %}" class="btn btn-outline extracted-style-cf5a7a">
+      ← Annulla
+    </a>
+  </aside>
+
+  <main class="main-content">
+    <div class="breadcrumb">
+      <a href="{% url 'quiz_lista' %}">Quiz</a>
+      <span>›</span>
+      {% if is_edit %}Modifica Quiz #{{ quiz.codice }}{% else %}Nuovo Quiz{% endif %}
+    </div>
+
+    <div class="page-title">
+      <h2>{% if is_edit %}✏️ Modifica Quiz{% else %}➕ Nuovo Quiz{% endif %}</h2>
+    </div>
+
+    {% if msg %}
+      <div class="alert alert-{{ msg_type }}">{{ msg }}</div>
+    {% endif %}
+
+    {% comment %}
+    Il form invia i dati al server via POST.
+    Il token CSRF è obbligatorio in Django per proteggere dai form falsi.
+    {% endcomment %}
+    <form method="POST" id="quiz-form" data-domande-length="{{ domande|length }}" data-is-edit="{% if is_edit %}1{% else %}0{% endif %}">
+      {% csrf_token %}
+      {% if is_edit %}
+      <input type="hidden" name="quiz_id" value="{{ quiz.codice }}">
+      {% endif %}
+
+      <div class="form-section">
+        <h3>📋 Dati del Quiz</h3>
+
+        <div class="form-group">
+          <label for="titolo">Titolo <span class="req-star">*</span></label>
+          <input type="text" id="titolo" name="titolo" required maxlength="200"
+                 value="{% if form_data.titolo %}{{ form_data.titolo }}{% elif quiz %}{{ quiz.titolo }}{% endif %}"
+                 placeholder="Es. Cultura Generale - Livello Base">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="dataInizio">Data Inizio <span class="req-star">*</span></label>
+            <input type="date" id="dataInizio" name="dataInizio" required
+                   value="{% if form_data.dataInizio %}{{ form_data.dataInizio }}{% elif quiz %}{{ quiz.dataInizio|date:'Y-m-d'|default:quiz.dataInizio }}{% endif %}">
+          </div>
+          <div class="form-group">
+            <label for="dataFine">Data Fine <span class="req-star">*</span></label>
+            <input type="date" id="dataFine" name="dataFine" required
+                   value="{% if form_data.dataFine %}{{ form_data.dataFine }}{% elif quiz %}{{ quiz.dataFine|date:'Y-m-d'|default:quiz.dataFine }}{% endif %}">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="creatore">Creatore <span class="req-star">*</span></label>
+          {% if is_edit %}
+            <select id="creatore" name="creatore" required>
+              <option value="">— Seleziona utente —</option>
+              {% for u in utenti %}
+                <option value="{{ u.nomeUtente }}"
+                  {% if form_data.creatore == u.nomeUtente %}selected
+                  {% elif quiz and quiz.creatore == u.nomeUtente %}selected{% endif %}>
+                  {{ u.nome }} {{ u.cognome }} ({{ u.nomeUtente }})
+                </option>
+              {% endfor %}
+            </select>
+          {% else %}
+            <input type="hidden" name="creatore" id="creatore-hidden">
+            <div class="extracted-style-e05c99" id="creatore-banner"></div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h3>❓ Domande e Risposte</h3>
+
+        <div id="domande-container">
+          {# Se stiamo modificando, mostriamo le domande esistenti #}
+          {% for dom in domande %}
+            <div class="domanda-block" data-idx="{{ forloop.counter0 }}">
+              <div class="domanda-block-header">
+                <span>Domanda #<span class="d-num">{{ forloop.counter }}</span></span>
+                <button type="button" class="btn btn-danger btn-sm remove-domanda">✕ Rimuovi</button>
+              </div>
+              <div class="form-group">
+                <label>Testo della domanda <span class="req-star">*</span></label>
+                <textarea name="domanda_testo[]" rows="2" placeholder="Inserisci la domanda..." required>{{ dom.testo }}</textarea>
+              </div>
+              <div class="risposte-container">
+                {% for r in dom.risposte %}
+                  <div class="risposta-block">
+                    <input type="text" name="risposta_testo_{{ forloop.parentloop.counter }}[]"
+                           value="{{ r.testo }}" placeholder="Testo risposta..." required>
+                    <label>Punteggio (corretta):</label>
+                    <input type="number" name="risposta_punti_{{ forloop.parentloop.counter }}[]"
+                           value="{% if r.punteggio %}{{ r.punteggio }}{% endif %}"
+                           placeholder="lascia vuoto se sbagliata"
+                           step="0.5" min="0.5" class="punteggio-input">
+                    <input type="hidden" name="risposta_tipo_{{ forloop.parentloop.counter }}[]"
+                           value="{% if r.punteggio %}Corretta{% else %}Sbagliata{% endif %}">
+                    <button type="button" class="btn btn-danger btn-sm remove-risposta">✕</button>
+                  </div>
+                {% endfor %}
+              </div>
+              <button type="button" class="btn btn-outline btn-sm add-risposta extracted-style-d79ce2">➕ Aggiungi Risposta</button>
+            </div>
+          {% endfor %}
+        </div>
+
+        <button type="button" class="btn btn-secondary" id="add-domanda">
+          ➕ Aggiungi Domanda
+        </button>
+        <div id="msg-form-inline" class="alert extracted-style-7fb49a"></div>
+      </div>
+
+      <div class="extracted-style-78e74b">
+        <a href="{% url 'quiz_lista' %}" class="btn btn-outline">Annulla</a>
+        <button type="submit" class="btn btn-primary btn-lg">
+          💾 {% if is_edit %}Salva Modifiche{% else %}Crea Quiz{% endif %}
+        </button>
+      </div>
+
+    </form>
+  </main>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+{% endblock %}
